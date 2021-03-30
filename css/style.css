@@ -222,7 +222,7 @@
 
 .works .works-list {
   margin: 30px 0;
-  padding: 10px;
+  padding: 20px;
 }
 
 .works .works-card {
@@ -231,7 +231,12 @@
   padding: 20px;
   background-color: white;
   margin: 20px 0;
-  box-shadow: 0 0 2px rgb(104, 104, 104);
+  box-shadow: 0 0 2px rgb(192, 192, 192);
+  transition: all 0.3s ease-in;
+}
+
+.works .works-card:hover {
+  box-shadow: 0 0 20px rgba(148, 147, 147, 0.5);
 }
 
 .works .works-card .card-text {
@@ -292,20 +297,31 @@
 
 .services .services-list {
   display: grid;
-  padding: 10px;
+  padding: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
 }
 
 .services .services-list .services-card {
   text-align: center;
-  box-shadow: 0 0 2px rgb(27, 27, 27);
+  border: 1px solid rgb(107, 107, 107);
   padding: 20px 10px;
   border-radius: 5px;
+  transition: all 0.5s ease-in;
+}
+
+.services .services-list .services-card:hover {
+  box-shadow: 0 30px 15px -15px rgba(148, 147, 147, 0.5);
 }
 
 .services .services-list .services-card img {
   width: 100%;
+}
+
+.services .services-list .services-card h3 {
+  font-size: 2rem;
+  font-weight: inherit;
+  margin-top: 20px;
 }
 
 .services .services-list .services-card p {
