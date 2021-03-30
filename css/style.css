@@ -8,7 +8,9 @@
 
 :root {
   --coral: coral;
-  --red: rgb(216, 58, 58);
+  --red: #be1414;
+  --text-color: rgb(75, 75, 75);
+  --coral-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
 }
 
 .g-container {
@@ -48,7 +50,7 @@
 
 .g-nav-list ul li a {
   text-decoration: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 .g-nav-link {
@@ -68,7 +70,7 @@
 }
 
 .g-nav-link button:hover {
-  box-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
+  box-shadow: var(--coral-shadow);
 }
 
 .g-header {
@@ -121,9 +123,6 @@
 .g-about {
   width: 100vw;
   min-height: 100vh;
-  background: url(/img/bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   padding: 0 200px;
@@ -144,10 +143,17 @@
 
 .g-about-text h3 {
   font-size: 4rem;
+  color: var(--text-color);
 }
 
 .g-about-text p {
   font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+.g-about-text h6 {
+  font-size: 1.5rem;
+  color: var(--text-color);
 }
 /* end about style */
 
@@ -190,3 +196,160 @@
   border: none;
 }
 /* end subscribe style */
+
+/* style for works */
+.works {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 200px;
+}
+
+.works .works-text {
+  text-align: center;
+  margin: 30px;
+}
+
+.works .works-text h3 {
+  font-size: 4rem;
+  color: var(--text-color);
+}
+
+.works .works-text p {
+  font-size: 1.5rem;
+  color: grey;
+  font-weight: inherit;
+}
+
+.works .works-list {
+  margin: 30px 0;
+  padding: 10px;
+}
+
+.works .works-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding: 20px;
+  background-color: white;
+  margin: 20px 0;
+  box-shadow: 0 0 2px rgb(104, 104, 104);
+}
+
+.works .works-card .card-text {
+  display: grid;
+  place-content: center;
+}
+
+.works .works-card .card-text h4 {
+  font-size: 3rem;
+}
+
+.works .works-card .card-text p {
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+
+.works .works-card .card-text a {
+  padding: 1rem 4rem;
+  text-decoration: none;
+  background-color: var(--red);
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0 10px 30px rgb(253, 121, 121, 0.5);
+  transition: all 0.5s ease-in-out;
+}
+
+.works .works-card .card-text a:hover {
+  box-shadow: 0 0 0 rgb(253, 121, 121, 0.5);
+}
+
+.works .works-card .card-image {
+  display: flex;
+}
+/* end works style */
+
+/* style for services */
+.services {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 200px;
+}
+
+.services .services-text {
+  margin: 30px 0;
+}
+
+.services .services-text h3 {
+  font-size: 4rem;
+  color: var(--text-color);
+}
+
+.services .services-text p {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+
+.services .services-list {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.services .services-list .services-card {
+  text-align: center;
+  box-shadow: 0 0 2px rgb(27, 27, 27);
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+.services .services-list .services-card img {
+  width: 100%;
+}
+
+.services .services-list .services-card p {
+  font-size: 1.3rem;
+  margin: 20px 0;
+  letter-spacing: 1px;
+}
+
+.services .services-list .services-card button {
+  padding: 1rem 3rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--coral);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease-in;
+}
+
+.services .services-list .services-card button:hover {
+  box-shadow: var(--coral-shadow);
+}
+/* end services style */
+
+/* style for footer */
+.footer {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 200px;
+  background: url(/img/bg.jpg);
+  background-size: cover;
+  display: grid;
+  place-content: center;
+}
+
+.footer h3 {
+  font-size: 5rem;
+  color: white;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  color: rgb(206, 91, 91);
+}
+/* end footer style */
