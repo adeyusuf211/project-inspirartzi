@@ -8,6 +8,7 @@
 
 :root {
   --coral: coral;
+  --red: rgb(216, 58, 58);
 }
 
 .g-container {
@@ -149,3 +150,43 @@
   font-size: 1.3rem;
 }
 /* end about style */
+
+/* style for subscribe */
+.subscribe {
+  width: 100vw;
+  height: 50vh;
+  padding: 0 200px;
+  background: var(--red);
+  display: grid;
+  place-content: center start;
+}
+
+.subscribe h3 {
+  font-size: 4rem;
+  color: white;
+}
+
+.subscribe .form {
+  display: flex;
+  width: 75vw;
+  box-sizing: border-box;
+}
+
+.subscribe .form input {
+  height: 70px;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  outline: none;
+}
+
+.subscribe button {
+  padding: 1rem 3rem;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: rgb(146, 26, 146);
+  color: white;
+  outline: none;
+  border: none;
+}
+/* end subscribe style */
