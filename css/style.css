@@ -107,16 +107,45 @@
   color: white;
   cursor: pointer;
   transition: all 0.5s ease-in;
+  transform: rotate(-3deg);
 }
 
 .g-header-text button:hover {
   box-shadow: 0 0 30px rgb(255, 151, 113, 0.7);
+  transform: rotate(0deg);
 }
 /* end header style */
 
 /* style for about */
 .g-about {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  background: url(/img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  padding: 0 200px;
+}
+
+.g-about-image {
+  display: flex;
+}
+
+.g-about-image img {
+  object-fit: cover;
+}
+
+.g-about-text {
+  display: grid;
+  place-content: center start;
+}
+
+.g-about-text h3 {
+  font-size: 4rem;
+}
+
+.g-about-text p {
+  font-size: 1.3rem;
 }
 /* end about style */
