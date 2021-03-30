@@ -111,6 +111,7 @@
   cursor: pointer;
   transition: all 0.5s ease-in;
   transform: rotate(-3deg);
+  font-weight: bold;
 }
 
 .g-header-text button:hover {
@@ -158,7 +159,7 @@
 /* end about style */
 
 /* style for subscribe */
-.subscribe {
+.g-subscribe {
   width: 100vw;
   height: 50vh;
   padding: 0 200px;
@@ -167,18 +168,18 @@
   place-content: center start;
 }
 
-.subscribe h3 {
+.g-subscribe h3 {
   font-size: 4rem;
   color: white;
 }
 
-.subscribe .form {
+.g-subscribe .form {
   display: flex;
   width: 75vw;
   box-sizing: border-box;
 }
 
-.subscribe .form input {
+.g-subscribe .form input {
   height: 70px;
   width: 100%;
   padding: 1rem;
@@ -186,7 +187,7 @@
   outline: none;
 }
 
-.subscribe button {
+.g-subscribe button {
   padding: 1rem 3rem;
   font-size: 18px;
   cursor: pointer;
@@ -198,34 +199,34 @@
 /* end subscribe style */
 
 /* style for works */
-.works {
+.g-works {
   width: 100vw;
   min-height: 100vh;
   padding: 0 200px;
 }
 
-.works .works-text {
+.g-works .g-works-text {
   text-align: center;
   margin: 30px;
 }
 
-.works .works-text h3 {
+.g-works .g-works-text h3 {
   font-size: 4rem;
   color: var(--text-color);
 }
 
-.works .works-text p {
+.g-works .g-works-text p {
   font-size: 1.5rem;
   color: grey;
   font-weight: inherit;
 }
 
-.works .works-list {
+.g-works .g-works-list {
   margin: 30px 0;
   padding: 20px;
 }
 
-.works .works-card {
+.g-works .g-works-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   padding: 20px;
@@ -235,25 +236,25 @@
   transition: all 0.3s ease-in;
 }
 
-.works .works-card:hover {
+.g-works .works-card:hover {
   box-shadow: 0 0 20px rgba(148, 147, 147, 0.5);
 }
 
-.works .works-card .card-text {
+.g-works .works-card .card-text {
   display: grid;
   place-content: center;
 }
 
-.works .works-card .card-text h4 {
+.g-works .works-card .card-text h4 {
   font-size: 3rem;
 }
 
-.works .works-card .card-text p {
+.g-works .works-card .card-text p {
   font-size: 1.5rem;
   margin: 30px 0;
 }
 
-.works .works-card .card-text a {
+.g-works .works-card .card-text a {
   padding: 1rem 4rem;
   text-decoration: none;
   background-color: var(--red);
@@ -264,45 +265,45 @@
   transition: all 0.5s ease-in-out;
 }
 
-.works .works-card .card-text a:hover {
+.g-works .works-card .card-text a:hover {
   box-shadow: 0 0 0 rgb(253, 121, 121, 0.5);
 }
 
-.works .works-card .card-image {
+.g-works .works-card .card-image {
   display: flex;
 }
 /* end works style */
 
 /* style for services */
-.services {
+.g-services {
   width: 100vw;
   min-height: 100vh;
   padding: 0 200px;
 }
 
-.services .services-text {
+.g-services .services-text {
   margin: 30px 0;
 }
 
-.services .services-text h3 {
+.g-services .services-text h3 {
   font-size: 4rem;
   color: var(--text-color);
 }
 
-.services .services-text p {
+.g-services .services-text p {
   font-size: 1.5rem;
   letter-spacing: 2px;
   margin: 20px 0;
 }
 
-.services .services-list {
+.g-services .services-list {
   display: grid;
   padding: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 10px;
 }
 
-.services .services-list .services-card {
+.g-ervices .services-list .services-card {
   text-align: center;
   border: 1px solid rgb(107, 107, 107);
   padding: 20px 10px;
@@ -310,27 +311,27 @@
   transition: all 0.5s ease-in;
 }
 
-.services .services-list .services-card:hover {
+.g-services .services-list .services-card:hover {
   box-shadow: 0 30px 15px -15px rgba(148, 147, 147, 0.5);
 }
 
-.services .services-list .services-card img {
+.g-services .services-list .services-card img {
   width: 100%;
 }
 
-.services .services-list .services-card h3 {
+.g-services .services-list .services-card h3 {
   font-size: 2rem;
   font-weight: inherit;
   margin-top: 20px;
 }
 
-.services .services-list .services-card p {
+.g-ervices .services-list .services-card p {
   font-size: 1.3rem;
   margin: 20px 0;
   letter-spacing: 1px;
 }
 
-.services .services-list .services-card button {
+.g-services .services-list .services-card button {
   padding: 1rem 3rem;
   border: none;
   outline: none;
@@ -343,13 +344,13 @@
   transition: all 0.3s ease-in;
 }
 
-.services .services-list .services-card button:hover {
+.g-services .services-list .services-card button:hover {
   box-shadow: var(--coral-shadow);
 }
 /* end services style */
 
 /* style for footer */
-.footer {
+.g-footer {
   width: 100vw;
   min-height: 100vh;
   padding: 0 200px;
@@ -359,13 +360,8 @@
   place-content: center;
 }
 
-.footer h3 {
+.g-footer h3 {
   font-size: 5rem;
   color: white;
-}
-
-.footer p {
-  font-size: 1.2rem;
-  color: rgb(206, 91, 91);
 }
 /* end footer style */

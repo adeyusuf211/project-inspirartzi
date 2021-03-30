@@ -1,0 +1,128 @@
+@media screen and (max-width: 700px) {
+  .g-nav {
+    height: 80px;
+  }
+
+  .g-nav-list,
+  .g-nav-link {
+    display: none;
+  }
+
+  .g-header {
+    padding: 0 10px;
+  }
+
+  .g-header .g-header-text h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .g-header .g-header-text p {
+    font-size: 1rem;
+  }
+
+  .g-header .g-header-text button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .g-about {
+    padding: 0 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    text-align: center;
+  }
+
+  .g-about .g-about-text h3 {
+    font-size: 3rem;
+  }
+
+  .g-about .g-about-text p {
+    font-size: 1rem;
+  }
+
+  .g-subscribe {
+    padding: 0 10px;
+  }
+
+  .g-subscribe h3 {
+    font-size: 3rem;
+  }
+
+  .g-subscribe .form {
+    width: 95vw;
+  }
+
+  .g-works {
+    padding: 0 10px;
+  }
+
+  .g-works .g-works-text h3 {
+    font-size: 3rem;
+  }
+
+  .g-works .g-works-text p {
+    font-size: 1rem;
+  }
+
+  .g-works .works-list {
+    padding: 10px;
+  }
+
+  .g-works .works-card {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .g-works .works-card .card-text h4 {
+    font-size: 2.5rem;
+  }
+
+  .g-works .works-card .card-text p {
+    margin: 10px 0;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  .g-works .works-card .card-text a {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+
+  .g-services {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .g-services .services-text h3 {
+    font-size: 3rem;
+  }
+
+  .g-services .services-text p {
+    font-size: 1rem;
+  }
+
+  .g-services .services-list .services-card {
+    margin: 30px 0;
+  }
+
+  .g-services .services-list .services-card p {
+    margin: 10px 0;
+  }
+
+  .g-services .services-list .services-card button {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .g-footer {
+    padding: 0 10px;
+    background-size: none;
+    display: none;
+  }
+
+  .g-footer h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
