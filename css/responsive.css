@@ -93,6 +93,14 @@
     margin-bottom: 30px;
   }
 
+  .g-works .works-card .card-image {
+    display: grid;
+  }
+
+  .g-works .works-card .card-image img {
+    width: 100%;
+  }
+
   .g-services {
     padding: 0 10px;
     text-align: center;
