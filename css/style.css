@@ -158,46 +158,6 @@
 }
 /* end about style */
 
-/* style for subscribe */
-.g-subscribe {
-  width: 100vw;
-  height: 50vh;
-  padding: 0 200px;
-  background: var(--red);
-  display: grid;
-  place-content: center start;
-}
-
-.g-subscribe h3 {
-  font-size: 4rem;
-  color: white;
-}
-
-.g-subscribe .form {
-  display: flex;
-  width: 75vw;
-  box-sizing: border-box;
-}
-
-.g-subscribe .form input {
-  height: 70px;
-  width: 100%;
-  padding: 1rem;
-  font-size: 18px;
-  outline: none;
-}
-
-.g-subscribe button {
-  padding: 1rem 3rem;
-  font-size: 18px;
-  cursor: pointer;
-  background-color: rgb(146, 26, 146);
-  color: white;
-  outline: none;
-  border: none;
-}
-/* end subscribe style */
-
 /* style for works */
 .g-works {
   width: 100vw;
@@ -226,7 +186,7 @@
   padding: 20px;
 }
 
-.g-works .g-works-card {
+.g-works .works-list .works-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   padding: 20px;
@@ -303,7 +263,7 @@
   gap: 10px;
 }
 
-.g-ervices .services-list .services-card {
+.g-services .services-list .services-card {
   text-align: center;
   border: 1px solid rgb(107, 107, 107);
   padding: 20px 10px;
@@ -325,7 +285,7 @@
   margin-top: 20px;
 }
 
-.g-ervices .services-list .services-card p {
+.g-services .services-list .services-card p {
   font-size: 1.3rem;
   margin: 20px 0;
   letter-spacing: 1px;
@@ -351,17 +311,48 @@
 
 /* style for footer */
 .g-footer {
-  width: 100vw;
-  min-height: 100vh;
+  width: 95vw;
+  height: 70vh;
+  background-color: rgb(255, 216, 171);
   padding: 0 200px;
-  background: url(/img/bg.jpg);
-  background-size: cover;
+  margin-top: 30px;
   display: grid;
+  grid-template-areas: "image text" "image text" "copy copy";
+  gap: 30px;
   place-content: center;
+  border-top-left-radius: 100px;
+  margin-left: auto;
 }
 
-.g-footer h3 {
-  font-size: 5rem;
-  color: white;
+.g-footer .footer-image {
+  grid-area: image;
+  display: flex;
+  align-items: center;
+}
+
+.g-footer .footer-image img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.g-footer .footer-text {
+  grid-area: text;
+  display: flex;
+  align-items: center;
+}
+
+.g-footer .footer-text h3 {
+  font-size: 3rem;
+  color: rgb(196, 104, 0);
+}
+
+.g-footer .footer-copy {
+  grid-area: copy;
+}
+
+.g-footer .footer-copy p {
+  font-size: 1.5rem;
+  font-weight: inherit;
 }
 /* end footer style */

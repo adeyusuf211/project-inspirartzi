@@ -66,11 +66,15 @@
 
   .g-works .works-list {
     padding: 10px;
+    box-sizing: border-box;
   }
 
-  .g-works .works-card {
+  .g-works .works-list .works-card {
+    padding: 10px;
     margin: 20px 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
   }
 
   .g-works .works-card .card-text h4 {
@@ -117,12 +121,19 @@
 
   .g-footer {
     padding: 0 10px;
-    background-size: none;
-    display: none;
+    display: grid;
+    grid-template-areas: "image image" "text text" "copy copy";
+    width: 100vw;
+    border-radius: 0;
   }
 
-  .g-footer h3 {
-    font-size: 2rem;
+  .g-footer .footer-text h3 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .g-footer .footer-copy p {
+    font-size: 1rem;
     text-align: center;
   }
 }
