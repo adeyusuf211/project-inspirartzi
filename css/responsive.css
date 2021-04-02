@@ -10,6 +10,7 @@
 
   .g-header {
     padding: 0 10px;
+    height: 100vh;
   }
 
   .g-header .g-header-text h3 {
@@ -130,7 +131,7 @@
   .g-footer {
     padding: 0 10px;
     display: grid;
-    grid-template-areas: "image image" "text text" "copy copy";
+    grid-template-areas: "text text" "image image" "copy copy";
     width: 100vw;
     border-radius: 0;
   }

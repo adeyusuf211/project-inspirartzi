@@ -133,10 +133,14 @@
 
 .g-header {
   width: 100vw;
-  height: 100vh;
+  min-height: 120vh;
   display: grid;
   place-content: center;
   padding: 0 200px;
+  background: url(/img/bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .g-header-text {
@@ -247,11 +251,16 @@
 .g-works .works-list .works-card {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-areas: "image text";
   padding: 20px;
   background-color: white;
   margin: 20px 0;
   box-shadow: 0 0 2px rgb(192, 192, 192);
   transition: all 0.3s ease-in;
+}
+
+.g-works .works-list .works-card:nth-child(odd) {
+  grid-template-areas: "text image";
 }
 
 .g-works .works-card:hover {
@@ -261,6 +270,7 @@
 .g-works .works-card .card-text {
   display: grid;
   place-content: center;
+  grid-area: text;
 }
 
 .g-works .works-card .card-text h4 {
@@ -289,6 +299,7 @@
 
 .g-works .works-card .card-image {
   display: flex;
+  grid-area: image;
 }
 /* end works style */
 
