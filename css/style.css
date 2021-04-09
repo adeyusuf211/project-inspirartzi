@@ -84,7 +84,7 @@
   width: 100vw;
   height: 120px;
   position: fixed;
-  z-index: 1;
+  z-index: 1000;
 }
 
 .g-nav.fixed {
@@ -155,7 +155,7 @@
 }
 
 .g-header-text p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   text-align: center;
   margin: 10px 0;
@@ -174,11 +174,25 @@
   transition: all 0.5s ease-in;
   transform: rotate(-3deg);
   font-weight: bold;
+  display: flex;
 }
 
 .g-header-text button:hover {
   box-shadow: 0 0 30px rgb(255, 151, 113, 0.7);
   transform: rotate(0deg);
+}
+
+.g-header-text button > span {
+  animation: narrow 1s both infinite;
+}
+
+@keyframes narrow {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
 }
 /* end header style */
 
@@ -271,6 +285,7 @@
   display: grid;
   place-content: center;
   grid-area: text;
+  padding: 3em;
 }
 
 .g-works .works-card .card-text h4 {
@@ -283,7 +298,12 @@
 }
 
 .g-works .works-card .card-text a {
-  padding: 1rem 4rem;
+  display: flex;
+  width: 250px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   text-decoration: none;
   background-color: var(--red);
   font-size: 1.5rem;
@@ -300,6 +320,15 @@
 .g-works .works-card .card-image {
   display: flex;
   grid-area: image;
+  overflow: hidden;
+}
+
+.g-works .works-card .card-image img {
+  transition: all 0.5s ease-in;
+}
+
+.g-works .works-card .card-image img:hover {
+  transform: scale(1.3) rotate(15deg);
 }
 /* end works style */
 
@@ -311,7 +340,7 @@
 }
 
 .g-services .services-text {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .g-services .services-text h3 {
@@ -323,6 +352,7 @@
   font-size: 1.5rem;
   letter-spacing: 2px;
   margin: 20px 0;
+  text-align: start;
 }
 
 .g-services .services-list {
@@ -358,6 +388,11 @@
   font-size: 1.3rem;
   margin: 20px 0;
   letter-spacing: 1px;
+  padding: 0 1em;
+}
+
+.g-services .services-list .services-card p > span {
+  font-weight: 500;
 }
 
 .g-services .services-list .services-card button {
@@ -377,6 +412,41 @@
   box-shadow: var(--coral-shadow);
 }
 /* end services style */
+
+/* start for quote */
+.quote {
+  width: 100vw;
+  height: 40vh;
+  display: grid;
+  margin: 20px 0;
+  place-content: center;
+  background: url(/img/undraw_urban_design_kpu8.svg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.quote::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  display: flex;
+  background-color: var(--coral);
+  width: 100%;
+  height: 100%;
+  opacity: 50%;
+}
+
+.quote h3 {
+  font-size: 4rem;
+  letter-spacing: 1px;
+  z-index: 1;
+  color: white;
+  text-shadow: 0 0 5px rgb(255, 127, 80, 0.3);
+}
+/* end qoute style */
 
 /* style for footer */
 .g-footer {
@@ -414,6 +484,27 @@
 .g-footer .footer-text h3 {
   font-size: 3rem;
   color: rgb(196, 104, 0);
+}
+
+.g-footer .footer-text h3 > span:nth-child(1) {
+  animation: node 1s both infinite;
+}
+
+.g-footer .footer-text h3 > span:nth-child(2) {
+  animation: node 1.3s both infinite;
+}
+
+.g-footer .footer-text h3 > span:nth-child(3) {
+  animation: node 1.5s both infinite;
+}
+
+@keyframes node {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .g-footer .footer-copy {
