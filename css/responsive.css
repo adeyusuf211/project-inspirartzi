@@ -20,16 +20,20 @@
     box-shadow: 0 0 10px rgba(199, 199, 199, 0.8);
   }
 
-  .g-nav-list ul li svg {
-    width: 20px;
-    height: 20px;
+  .g-nav-list ul li a {
     display: flex;
-    justify-content: center;
-    margin: auto;
+    flex-direction: column;
     transition: all 0.3s ease-in-out;
   }
 
-  .g-nav-list ul li svg:hover {
+  .g-nav-list ul li a > svg {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    margin: auto;
+  }
+
+  .g-nav-list ul li a svg:hover {
     color: var(--coral);
   }
 
