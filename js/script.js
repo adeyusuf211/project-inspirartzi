@@ -28,3 +28,11 @@ function clickHandler(e) {
   });
 }
 // end script
+
+const button = document.getElementsById('color-mode');
+
+button.addEventListener('click', function() {
+  if(dataset.colorMode === "light") {
+    console.log("halo");
+  }
+});
