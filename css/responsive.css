@@ -8,6 +8,38 @@
     display: none;
   }
 
+  .g-nav-list {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(199, 199, 199, 0.8);
+  }
+
+  .g-nav-list ul li svg {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .g-nav-list ul li svg:hover {
+    color: var(--coral);
+  }
+
+  .g-nav-list ul li a {
+    padding: 0 1rem;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+
   .g-header {
     padding: 0 10px;
     height: 100vh;
@@ -23,7 +55,7 @@
   }
 
   .g-header .g-header-text button {
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     font-size: 1rem;
   }
 
@@ -39,18 +71,6 @@
 
   .g-about .g-about-text p {
     font-size: 1rem;
-  }
-
-  .g-subscribe {
-    padding: 0 10px;
-  }
-
-  .g-subscribe h3 {
-    font-size: 3rem;
-  }
-
-  .g-subscribe .form {
-    width: 95vw;
   }
 
   .g-works {
@@ -107,6 +127,7 @@
   .g-services {
     padding: 0 10px;
     text-align: center;
+    margin: 30px 0;
   }
 
   .g-services .services-text h3 {
@@ -122,10 +143,10 @@
   }
 
   .g-services .services-list .services-card p {
-    margin: 10px 0;
+    margin: 50px 0;
   }
 
-  .g-services .services-list .services-card button {
+  .g-services .services-list .services-card a {
     margin-bottom: 30px;
     margin-top: 10px;
   }
@@ -145,6 +166,7 @@
     grid-template-areas: "text text" "image image" "copy copy";
     width: 100vw;
     border-radius: 0;
+    margin-bottom: 80px;
   }
 
   .g-footer .footer-text h3 {

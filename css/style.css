@@ -97,10 +97,6 @@
   font-size: 1.5rem;
 }
 
-.g-nav-list {
-  width: 500px;
-}
-
 .g-nav-list ul {
   display: flex;
   justify-content: space-around;
@@ -109,6 +105,16 @@
 .g-nav-list ul li a {
   text-decoration: none;
   font-weight: bold;
+  padding: 0 2em;
+  transition: all 0.3s ease-in;
+}
+
+.g-nav-list ul li a:hover {
+  color: var(--coral);
+}
+
+.g-nav-list ul li svg {
+  display: none;
 }
 
 .g-nav-link {
@@ -365,7 +371,7 @@
 .g-services .services-list .services-card {
   text-align: center;
   border: 1px solid rgb(107, 107, 107);
-  padding: 20px 10px;
+  padding: 50px 10px;
   border-radius: 5px;
   transition: all 0.5s ease-in;
 }
@@ -389,13 +395,15 @@
   margin: 20px 0;
   letter-spacing: 1px;
   padding: 0 1em;
+  margin-bottom: 50px;
 }
 
 .g-services .services-list .services-card p > span {
   font-weight: 500;
 }
 
-.g-services .services-list .services-card button {
+.g-services .services-list .services-card a {
+  text-decoration: none;
   padding: 1rem 3rem;
   border: none;
   outline: none;
@@ -408,7 +416,7 @@
   transition: all 0.3s ease-in;
 }
 
-.g-services .services-list .services-card button:hover {
+.g-services .services-list .services-card a:hover {
   box-shadow: var(--coral-shadow);
 }
 /* end services style */
