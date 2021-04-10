@@ -526,6 +526,13 @@
   box-shadow: 0 0 10px rgb(59, 59, 59, 0.4);
 }
 
+.modal .modal-talk .modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
 .modal .modal-talk .modal-header h3 {
   font-size: 3rem;
   font-weight: inherit;
@@ -551,5 +558,31 @@ textarea {
   border-radius: 5px;
   padding: 1em 1.5em;
   outline: none;
+  font-size: 18px;
+}
+
+.modal .modal-talk .modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal .modal-talk .modal-footer button {
+  padding: 1em 2em;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal .modal-talk .modal-footer button:nth-child(1) {
+  margin-right: 5px;
+  background-color: black;
+  color: white;
+}
+
+.modal .modal-talk .modal-footer button:nth-child(2) {
+  background-color: var(--coral);
+  color: white;
 }
 /* end modal style */

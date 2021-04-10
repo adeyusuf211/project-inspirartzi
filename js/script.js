@@ -31,7 +31,17 @@ function clickHandler(e) {
 
 const modal     = document.getElementById('talk');
 const modalTalk = document.querySelector('.modal');
+const close     = document.getElementById('close');
+const span      = document.getElementById('span');
 
 modal.addEventListener('click', (e) => {
   modalTalk.style.display = "grid";
+});
+
+close.addEventListener('click', function(e) {
+  modalTalk.style.display = "none";
+});
+
+span.addEventListener('click', function() {
+  modalTalk.style.display = "none";
 });

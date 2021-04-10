@@ -182,4 +182,22 @@
     font-size: 1rem;
     text-align: center;
   }
+
+  .modal .modal-talk {
+    width: 90vw;
+    padding: 1em 2em;
+  }
+
+  .modal .modal-talk .modal-header h3 {
+    font-size: 2rem;
+  }
+
+  .modal .modal-talk .modal-body .form-group input,
+  textarea {
+    padding: 0.5em 1em;
+  }
+
+  .modal .modal-footer button {
+    padding: 0.5em 1em;
+  }
 }
