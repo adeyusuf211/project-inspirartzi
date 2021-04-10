@@ -117,26 +117,6 @@
   display: none;
 }
 
-.g-nav-link {
-  padding: 20px;
-}
-
-.g-nav-link button {
-  padding: 1rem 1.5rem;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  background-color: var(--coral);
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.g-nav-link button:hover {
-  box-shadow: var(--coral-shadow);
-}
-
 .g-header {
   width: 100vw;
   min-height: 120vh;
@@ -525,3 +505,51 @@
   color: rgb(196, 104, 0);
 }
 /* end footer style */
+
+/* style for modal */
+.modal {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 500000;
+  display: none;
+  place-content: center;
+  animation: modal 0.5s ease-in;
+}
+
+.modal .modal-talk {
+  width: 50vw;
+  padding: 2em 3em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(59, 59, 59, 0.4);
+}
+
+.modal .modal-talk .modal-header h3 {
+  font-size: 3rem;
+  font-weight: inherit;
+}
+
+.modal .modal-talk .modal-body .form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.modal .modal-talk .modal-body .form-group label {
+  margin-bottom: 10px;
+}
+
+.modal .modal-talk .modal-body .form-group input {
+  width: 100%;
+  height: 50px;
+}
+
+.modal .modal-talk .modal-body .form-group input,
+textarea {
+  border-radius: 5px;
+  padding: 1em 1.5em;
+  outline: none;
+}
+/* end modal style */

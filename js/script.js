@@ -29,10 +29,9 @@ function clickHandler(e) {
 }
 // end script
 
-const button = document.getElementsById('color-mode');
+const modal     = document.getElementById('talk');
+const modalTalk = document.querySelector('.modal');
 
-button.addEventListener('click', function() {
-  if(dataset.colorMode === "light") {
-    console.log("halo");
-  }
+modal.addEventListener('click', (e) => {
+  modalTalk.style.display = "grid";
 });
