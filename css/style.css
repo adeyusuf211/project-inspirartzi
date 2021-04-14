@@ -285,14 +285,14 @@
 
 .g-works .works-card .card-text a {
   display: flex;
-  width: 250px;
+  width: 200px;
   height: 70px;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
   text-decoration: none;
   background-color: var(--red);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   border-radius: 50px;
   box-shadow: 0 10px 30px rgb(253, 121, 121, 0.5);
