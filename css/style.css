@@ -82,7 +82,7 @@
   align-items: center;
   justify-content: space-around;
   width: 100vw;
-  height: 120px;
+  height: 100px;
   position: fixed;
   z-index: 1000;
 }
@@ -275,7 +275,7 @@
 }
 
 .g-works .works-card .card-text h4 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .g-works .works-card .card-text p {
@@ -311,7 +311,7 @@
 
 .g-works .works-card .card-image img {
   transition: all 0.5s ease-in;
-  display: flex;
+  object-fit: cover;
 }
 
 .g-works .works-card .card-image img:hover {
