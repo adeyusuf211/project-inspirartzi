@@ -34,16 +34,11 @@ body.dark {
   transition: all 0.3s ease;
   transition-property: background, transform;
   transform-origin: 100%, 100%;
+  backdrop-filter: grayscale(0.5);
 }
 
 .link-grow {
   transform: scale(2);
-  background-color: var(--color-cursor);
-  z-index: -1;
-}
-
-.p-link-grow {
-  transform: scale(1.2);
   background-color: var(--color-cursor);
   z-index: -1;
 }

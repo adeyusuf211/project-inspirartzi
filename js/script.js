@@ -59,7 +59,6 @@ theme.addEventListener('click', function() {
 // script for custom cursor
 // script for custom cursor
 let mouse       = document.querySelector('.cursor');
-const p         = document.querySelectorAll('p');
 const h3        = document.querySelectorAll('h3');
 const h4        = document.querySelectorAll('h4');
 
@@ -87,13 +86,4 @@ h4.forEach(h4 => {
       mouse.classList.remove('link-grow');
   });
 });
-
-p.forEach(p => {
-  p.addEventListener('mouseover', () => {
-    mouse.classList.add('p-link-grow');
-  });
-    p.addEventListener('mouseleave', () => {
-      mouse.classList.remove('p-link-grow');
-  });
-})
 // end custom cursor script
