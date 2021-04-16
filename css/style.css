@@ -647,7 +647,7 @@ textarea {
   bottom: 0;
   right: 0;
   margin: 30px;
-  background-color: white;
+  background-color: rgb(20, 20, 20);
   display: grid;
   place-content: center;
   box-shadow: 0 0 10px rgb(145, 145, 145, 0.5);
@@ -660,9 +660,10 @@ textarea {
 .theme svg {
   width: 30px;
   height: 30px;
+  color: rgb(255, 196, 0);
 }
 
 .theme.dark {
-  background-color: rgb(139, 118, 0);
+  background-color: rgb(233, 233, 233);
 }
 /* end theme style */
