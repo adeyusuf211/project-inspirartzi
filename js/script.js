@@ -45,3 +45,13 @@ close.addEventListener('click', function(e) {
 span.addEventListener('click', function() {
   modalTalk.style.display = "none";
 });
+
+
+// script for darkmode
+const theme = document.querySelector('.theme');
+
+theme.addEventListener('click', function() {
+  document.body.classList.toggle('dark');
+  theme.classList.toggle('dark');
+});
+// end script

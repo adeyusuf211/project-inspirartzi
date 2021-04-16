@@ -15,6 +15,12 @@
   --coral-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
 }
 
+body.dark {
+  background-color: rgb(24, 18, 0);
+  color: white;
+  transition: all 0.3s ease;
+}
+
 .g-container {
   width: 100%;
   height: 100%;
@@ -62,7 +68,7 @@
 }
 
 .load .box:nth-child(3) {
-  animation: loading 0.5s ease-in infinite;
+  animation: loading 1.5s ease-in infinite;
 }
 
 @keyframes loading {
@@ -95,6 +101,7 @@
 
 .g-nav-logo h3 {
   font-size: 1.5rem;
+  color: var(--text-color);
 }
 
 .g-nav-list ul {
@@ -138,6 +145,7 @@
 .g-header-text h3 {
   font-size: 4rem;
   letter-spacing: 1px;
+  color: var(--text-color);
 }
 
 .g-header-text p {
@@ -145,6 +153,7 @@
   letter-spacing: 2px;
   text-align: center;
   margin: 10px 0;
+  color: var(--text-color);
 }
 
 .g-header-text button {
@@ -206,7 +215,6 @@
 
 .g-about-text h3 {
   font-size: 4rem;
-  color: var(--text-color);
 }
 
 .g-about-text p {
@@ -216,7 +224,6 @@
 
 .g-about-text h6 {
   font-size: 1.5rem;
-  color: var(--text-color);
 }
 /* end about style */
 
@@ -234,12 +241,10 @@
 
 .g-works .g-works-text h3 {
   font-size: 4rem;
-  color: var(--text-color);
 }
 
 .g-works .g-works-text p {
   font-size: 1.5rem;
-  color: grey;
   font-weight: inherit;
 }
 
@@ -253,7 +258,6 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-template-areas: "image text";
   padding: 20px;
-  background-color: white;
   margin: 20px 0;
   box-shadow: 0 0 2px rgb(192, 192, 192);
   transition: all 0.3s ease-in;
@@ -332,7 +336,6 @@
 
 .g-services .services-text h3 {
   font-size: 4rem;
-  color: var(--text-color);
 }
 
 .g-services .services-text p {
@@ -547,6 +550,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  color: var(--text-color);
 }
 
 .modal .modal-talk .modal-header h3 {
@@ -591,7 +595,7 @@ textarea {
   box-sizing: border-box;
   border: none;
   outline: none;
-  border-radius: 5px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
@@ -606,3 +610,32 @@ textarea {
   color: white;
 }
 /* end modal style */
+
+/* style for theme */
+.theme {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 30px;
+  background-color: white;
+  display: grid;
+  place-content: center;
+  box-shadow: 0 0 10px rgb(145, 145, 145, 0.5);
+}
+
+.theme:hover {
+  cursor: pointer;
+}
+
+.theme svg {
+  width: 30px;
+  height: 30px;
+}
+
+.theme.dark {
+  background-color: rgb(139, 118, 0);
+}
+/* end theme style */

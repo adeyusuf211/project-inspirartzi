@@ -95,7 +95,7 @@
   }
 
   .g-works .works-list .works-card {
-    padding: 10px;
+    padding: 10px 0;
     margin: 20px 0;
     text-align: center;
     display: flex;
@@ -199,5 +199,9 @@
 
   .modal .modal-footer button {
     padding: 0.5em 1em;
+  }
+
+  .theme {
+    margin-bottom: 100px;
   }
 }
