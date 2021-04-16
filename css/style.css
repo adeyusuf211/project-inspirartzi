@@ -13,6 +13,7 @@
   --red: #be1414;
   --text-color: rgb(75, 75, 75);
   --coral-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
+  --color-cursor: rgb(247, 203, 122);
 }
 
 body.dark {
@@ -20,6 +21,37 @@ body.dark {
   color: white;
   transition: all 0.3s ease;
 }
+
+/* style for custom cursor */
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 3px solid var(--color-cursor);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100%, 100%;
+}
+
+.link-grow {
+  transform: scale(2);
+  background-color: var(--color-cursor);
+  z-index: -1;
+}
+
+.p-link-grow {
+  transform: scale(1.2);
+  background-color: var(--color-cursor);
+  z-index: -1;
+}
+
+.hover-link {
+  color: white;
+}
+/* end custom style cursor */
 
 .g-container {
   width: 100%;

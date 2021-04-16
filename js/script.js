@@ -55,3 +55,45 @@ theme.addEventListener('click', function() {
   theme.classList.toggle('dark');
 });
 // end script
+
+// script for custom cursor
+// script for custom cursor
+let mouse       = document.querySelector('.cursor');
+const p         = document.querySelectorAll('p');
+const h3        = document.querySelectorAll('h3');
+const h4        = document.querySelectorAll('h4');
+
+window.addEventListener('mousemove', cursor);
+
+function cursor(e) {
+    mouse.style.top   = e.pageY + 'px';
+    mouse.style.left  = e.pageX + 'px';
+}
+
+h3.forEach(h3 => {
+    h3.addEventListener('mouseover', () => {
+        mouse.classList.add('link-grow');
+    });
+    h3.addEventListener('mouseleave', () => {
+        mouse.classList.remove('link-grow');
+    });
+});
+
+h4.forEach(h4 => {
+  h4.addEventListener('mouseover', () => {
+      mouse.classList.add('link-grow');
+  });
+  h4.addEventListener('mouseleave', () => {
+      mouse.classList.remove('link-grow');
+  });
+});
+
+p.forEach(p => {
+  p.addEventListener('mouseover', () => {
+    mouse.classList.add('p-link-grow');
+  });
+    p.addEventListener('mouseleave', () => {
+      mouse.classList.remove('p-link-grow');
+  });
+})
+// end custom cursor script
