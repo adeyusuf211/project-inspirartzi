@@ -77,6 +77,14 @@
     font-size: 1rem;
   }
 
+  .g-about-follow {
+    flex-direction: column;
+  }
+
+  .g-about-follow .sosmed a {
+    margin: 10px;
+  }
+
   .g-works {
     padding: 0 10px;
   }
