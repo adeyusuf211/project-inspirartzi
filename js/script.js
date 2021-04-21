@@ -98,3 +98,16 @@ h4.forEach(h4 => {
   });
 });
 // end custom cursor script
+
+// script for active menu
+const menu = document.querySelectorAll('.g-nav-list ul li a');
+menu.forEach(m => {
+    m.addEventListener('click', (e) => {
+        e.preventDefault();
+        for(const m of menu) {
+            m.classList.remove('active');
+        }
+        m.classList.add('active');
+    });
+});
+// end active menu script

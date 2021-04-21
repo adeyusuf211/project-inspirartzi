@@ -143,6 +143,21 @@ body.dark {
   transition: all 0.3s ease-in;
 }
 
+.g-nav-list ul li a.active {
+  color: var(--coral);
+  position: relative;
+}
+
+.g-nav-list ul li a.active::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 5px;
+  background-color: var(--coral);
+}
+
 .g-nav-list ul li a:hover {
   color: var(--coral);
 }
