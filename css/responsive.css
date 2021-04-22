@@ -86,7 +86,7 @@
   }
 
   .g-about .g-about-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .g-about-follow {
@@ -103,10 +103,11 @@
 
   .g-works .g-works-text h3 {
     font-size: 3rem;
+    text-align: center;
   }
 
   .g-works .g-works-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .g-works .works-list {
@@ -150,16 +151,17 @@
 
   .g-services {
     padding: 0 10px;
-    text-align: center;
     margin: 30px 0;
   }
 
   .g-services .services-text h3 {
     font-size: 3rem;
+    text-align: center;
   }
 
   .g-services .services-text p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
   }
 
   .g-services .services-list .services-card {
@@ -182,6 +184,39 @@
   .quote h3 {
     font-size: 2rem;
     text-align: center;
+  }
+
+  .teams {
+    padding: 10px 0;
+    margin: 30px 0;
+  }
+
+  .teams .teams-header {
+    text-align: center;
+  }
+
+  .teams .teams-header h3 {
+    font-size: 3rem;
+  }
+
+  .teams .teams-header p {
+    font-size: 1rem;
+  }
+
+  .teams .teams-list {
+    flex-direction: column;
+  }
+
+  .teams .teams-list .teams-card {
+    width: 100%;
+  }
+
+  .teams .teams-list .teams-card .teams-card-body h4 {
+    font-size: 1rem;
+  }
+
+  .teams .teams-list .teams-card .teams-card-body h5 {
+    font-size: 1.2rem;
   }
 
   .g-footer {

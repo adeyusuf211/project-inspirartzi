@@ -309,6 +309,77 @@ body.dark {
 }
 /* end about style */
 
+/* style for teams */
+.teams {
+  width: 100vw;
+  padding: 0 200px;
+  margin: 100px 0;
+}
+
+.teams .teams-header {
+  margin: 1em 0;
+}
+
+.teams .teams-header h3 {
+  font-size: 3.5rem;
+}
+
+.teams .teams-header p {
+  font-size: 1.3rem;
+}
+
+.teams .teams-list {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.teams .teams-list .teams-card {
+  display: flex;
+  width: 48%;
+  padding: 2em;
+  transition: 0.5s ease-in;
+  border-radius: 10px;
+}
+
+.teams .teams-list .teams-card:hover {
+  box-shadow: 0 0 10px rgb(177, 177, 177);
+}
+
+.teams .teams-list .teams-card .teams-card-image {
+  display: flex;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.teams .teams-list .teams-card .teams-card-image img {
+  width: 100%;
+}
+
+.teams .teams-list .teams-card .teams-card-body {
+  display: grid;
+  place-content: center;
+}
+
+.teams .teams-list .teams-card .teams-card-body span {
+  margin: 10px 0;
+  height: 5px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: coral;
+}
+
+.teams .teams-list .teams-card .teams-card-body h4 {
+  font-size: 1.2rem;
+}
+
+.teams .teams-list .teams-card .teams-card-body h5 {
+  font-size: 1.5rem;
+}
+/* end teams style */
+
 /* style for works */
 .g-works {
   width: 100vw;
@@ -414,6 +485,7 @@ body.dark {
 
 .g-services .services-text {
   margin: 20px 0;
+  text-align: end;
 }
 
 .g-services .services-text h3 {
@@ -424,7 +496,6 @@ body.dark {
   font-size: 1.3rem;
   letter-spacing: 2px;
   margin: 20px 0;
-  text-align: start;
 }
 
 .g-services .services-list {
