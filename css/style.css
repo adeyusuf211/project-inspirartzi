@@ -244,15 +244,23 @@ body.dark {
 
 .g-about-image {
   display: flex;
+  padding: 1em;
 }
 
 .g-about-image img {
+  display: flex;
   object-fit: cover;
+  object-position: center;
+}
+
+.g-about-image img.dark {
+  display: flex;
 }
 
 .g-about-text {
   display: grid;
   place-content: center start;
+  padding: 1em;
 }
 
 .g-about-text h3 {
