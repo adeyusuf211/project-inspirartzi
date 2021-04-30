@@ -46,22 +46,56 @@ span.addEventListener('click', function() {
 
 
 // script for darkmode
-const theme = document.querySelector('.theme');
-theme.addEventListener('click', function() {
+const theme   = document.querySelector('.theme');
+const footer  = document.querySelector('.g-footer');
+const header  = document.querySelector('.g-header');
+
+theme.addEventListener('click', darkTheme);
+
+// function for darkmode
+function darkTheme() {
+
+  // declaration varible for darkmode
   document.body.classList.toggle('dark');
   theme.classList.toggle('dark');
+  // end declaration variable darkmode
+
+  // cek condition if user check toggle darkmode
   if(theme.classList.contains('dark')) {
     theme.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
     </svg>`;
     const svg = document.querySelector('.theme svg');
     svg.style.color = "black";
+
+    // change background color and color footer
+    footer.style.backgroundColor = "rgb(226, 146, 54)";
+    const footerText = document.querySelector('.g-footer .footer-text h3');
+    footerText.style.color = "rgb(247, 224, 197)";
+    const footerCopyright = document.querySelector('.g-footer .footer-copy p');
+    footerCopyright.style.color = "rgb(247, 224, 197)";
+    header.style.background = "url(/img/bg1.svg";
+    header.style.backgroundSize = "cover";
+    header.style.backgroundPosition = "center";
+    header.style.minHeight = "120vh";
   } else {
     theme.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
     </svg>`;
+
+    // change background color and color of footer
+    footer.style.backgroundColor = "rgb(255, 216, 171)";
+    const footerText = document.querySelector('.g-footer .footer-text h3');
+    footerText.style.color = "rgb(196, 104, 0)";
+    const footerCopyright = document.querySelector('.g-footer .footer-copy p');
+    footerCopyright.style.color = "rgb(196, 104, 0)";
+    header.style.background = "url(/img/bg.svg)";
+    header.style.backgroundSize = "cover";
+    header.style.backgroundPosition = "center";
+    header.style.minHeight = "120vh";
   }
-});
+  // end condition for darkmode
+}
 // end darkmode script
 
 // script for custom cursor
