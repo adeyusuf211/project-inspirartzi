@@ -343,7 +343,7 @@ body.dark {
 }
 
 .teams .teams-list .teams-card:hover {
-  box-shadow: 0 0 10px rgb(177, 177, 177);
+  box-shadow: 0 0 10px rgb(177, 177, 177, 0.5);
 }
 
 .teams .teams-list .teams-card .teams-card-image {

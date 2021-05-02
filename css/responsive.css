@@ -51,6 +51,7 @@
   .g-header {
     padding: 0 10px;
     height: 100vh;
+    background-position: center center;
   }
 
   .g-header .g-header-text h3 {
