@@ -1,3 +1,35 @@
+/* responsive tablet */
+@media screen and (min-width: 768px) {
+  .g-nav-list ul li a {
+    padding: 0 1.5em;
+  }
+
+  .g-about {
+    padding: 0 100px;
+  }
+
+  .teams {
+    padding: 100px;
+  }
+
+  .g-services {
+    padding: 0 100px;
+  }
+
+  .g-works {
+    padding: 0 100px;
+  }
+
+  .g-works .works-list {
+    padding: 0px;
+  }
+
+  .g-works .works-list .works-card {
+    grid-template-columns: repeat(500px);
+  }
+}
+
+/* responsive phone */
 @media screen and (max-width: 700px) {
   .g-nav {
     height: 80px;
