@@ -152,10 +152,21 @@
     padding: 10px 0;
     margin: 20px 0;
     text-align: center;
-    display: flex;
     flex-direction: column;
   }
 
+  .g-works .works-list .works-card:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .g-works .works-list .works-card .card-image {
+    width: 100%;
+  }
+
+  .g-works .works-list .works-card .card-text {
+    width: 100%;
+    place-content: center;
+  }
   .g-works .works-card .card-text h4 {
     font-size: 2rem;
   }
