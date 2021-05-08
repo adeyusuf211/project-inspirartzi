@@ -72,8 +72,10 @@ function darkTheme() {
     for(button of btn) {
       button.style.color = "#fff";
     }
-
-
+    
+    const href = document.querySelector('.colaboration a');
+    href.style.color = "#fff";
+  
     // change background color and color footer
     footer.style.backgroundColor = "rgb(226, 146, 54)";
     const footerText = document.querySelector('.g-footer .footer-text h3');
@@ -93,6 +95,9 @@ function darkTheme() {
     for(button of btn) {
       button.style.color = "#000";
     }
+
+    const href = document.querySelector('.colaboration a');
+    href.style.color = "rgb(83, 83, 83)";
 
     // change background color and color of footer
     footer.style.backgroundColor = "rgb(255, 216, 171)";
@@ -149,7 +154,7 @@ menu.forEach(m => {
 });
 // end active menu script
 
-// Script for tabs
+// Script for button tabs
 const btn = document.querySelectorAll('.g-works .works-button button');
 const img = document.querySelectorAll('.g-works .works-list .works-card');
 
@@ -171,4 +176,9 @@ btn.forEach(item => {
         })
     });
 })
-// End tabs
+// End button tabs
+
+// script for hover text
+const text = document.querySelector('.colaboration h3');
+const huruf = [...text.textContent].map(h => `<span>${h}</span>`).join('');
+text.innerHTML = huruf;
