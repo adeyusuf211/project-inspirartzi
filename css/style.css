@@ -17,26 +17,6 @@
   --color-cursor: rgb(247, 203, 122);
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-  z-index: -1;
-}
-
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #a5aaad;
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--coral);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #a5aaad;
-}
-
 body.dark {
   background-color: rgb(24, 18, 0);
   color: white;
