@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
   padding: 0;
@@ -272,6 +273,7 @@ body.dark {
 .g-about-text p {
   font-size: 1.3rem;
   margin: 20px 0;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-about-text h6 {
@@ -328,6 +330,7 @@ body.dark {
 
 .teams .teams-header p {
   font-size: 1.3rem;
+  font-family: "Quicksand", sans-serif;
 }
 
 .teams .teams-list {
@@ -401,6 +404,7 @@ body.dark {
 .g-works .g-works-text p {
   font-size: 1.5rem;
   font-weight: inherit;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-works .works-list {
@@ -473,6 +477,7 @@ body.dark {
   place-content: center start;
   width: 50%;
   padding: 3em;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-works .works-card .card-text h4 {
@@ -527,6 +532,7 @@ body.dark {
   font-size: 1.3rem;
   letter-spacing: 2px;
   margin: 20px 0;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-services .services-list {
@@ -564,10 +570,12 @@ body.dark {
   letter-spacing: 1px;
   padding: 0 1em;
   margin-bottom: 50px;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-services .services-list .services-card p > span {
-  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
 }
 
 .g-services .services-list .services-card a {
