@@ -128,9 +128,9 @@ body.dark {
   transition: all 0.5s ease-in-out;
 }
 
-.g-nav-logo h3 {
-  font-size: 1.5rem;
-  color: var(--text-color);
+.g-nav-logo img {
+  display: flex;
+  height: 200px;
 }
 
 .g-nav-list ul {
@@ -696,9 +696,9 @@ body.dark {
 }
 
 .g-footer .footer-image img {
-  width: 100%;
   object-fit: cover;
   object-position: center;
+  height: 90%;
 }
 
 .g-footer .footer-text {
@@ -735,6 +735,7 @@ body.dark {
 
 .g-footer .footer-copy {
   grid-area: copy;
+  transform: translateY(-50px);
 }
 
 .g-footer .footer-copy p {
