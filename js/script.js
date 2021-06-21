@@ -105,6 +105,12 @@ function darkTheme() {
     const href = document.querySelector('.colaboration a');
     href.style.color = "rgb(83, 83, 83)";
 
+    const h2 = document.querySelector('.colaboration h2');
+    h2.style.color = "rgb(209, 209, 209)";
+
+    const h1 = document.querySelector('.colaboration h1');
+    h1.style.color = "rgb(209, 209, 209)";
+
     // change background color and color of footer
     footer.style.backgroundColor = "rgb(255, 216, 171)";
     const footerText = document.querySelector('.g-footer .footer-text h3');
