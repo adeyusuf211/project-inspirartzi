@@ -633,6 +633,54 @@ body.dark {
 }
 /* end qoute style */
 
+/* start testimonial style */
+.testimonial {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 0 200px;
+}
+
+.testimonial h3 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.testimonial p {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  font-family: "Quicksand", sans-serif;
+}
+
+.testimonial .testimonial-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.testimonial .testimonial-body > img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 5px solid rgb(255, 237, 214);
+  margin: 20px auto;
+}
+
+.testimonial .testimonial-body h4 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.testimonial .testimonial-body p {
+  font-size: 1.2rem;
+}
+/* end testimonial style */
+
+/* start for colaboration style */
 .colaboration {
   width: 100vw;
   height: 100vh;
@@ -640,6 +688,13 @@ body.dark {
   place-content: center;
   padding: 0 200px;
   position: relative;
+}
+
+.colaboration h3,
+span,
+a {
+  position: relative;
+  z-index: 2;
 }
 
 .colaboration h3 {
@@ -673,6 +728,43 @@ body.dark {
   background-color: var(--coral2);
   z-index: -1;
 }
+
+.colaboration h2 {
+  font-size: 10rem;
+  color: rgb(209, 209, 209);
+  opacity: 50%;
+  position: absolute;
+  top: 20%;
+  animation: collaborate infinite linear 15s;
+}
+
+@keyframes collaborate {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+
+.colaboration h1 {
+  font-size: 10rem;
+  color: rgb(209, 209, 209);
+  opacity: 50%;
+  position: absolute;
+  top: 40%;
+  animation: collaborate2 infinite linear 15s;
+}
+
+@keyframes collaborate2 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0;
+  }
+}
+/* end colaboration style */
 
 /* style for footer */
 .g-footer {

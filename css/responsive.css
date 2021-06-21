@@ -281,6 +281,16 @@
     width: 60%;
   }
 
+  .colaboration h2 {
+    font-size: 5rem;
+    top: 0;
+  }
+
+  .colaboration h1 {
+    font-size: 5rem;
+    top: 40%;
+  }
+
   .g-footer {
     padding: 0 10px;
     display: grid;
