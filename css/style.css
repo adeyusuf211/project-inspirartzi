@@ -201,7 +201,7 @@ body.dark {
   color: var(--text-color);
 }
 
-.g-header-text button {
+.g-header-text a {
   margin: 30px;
   padding: 1rem 3rem;
   font-size: 25px;
@@ -215,14 +215,15 @@ body.dark {
   transform: rotate(-3deg);
   font-weight: bold;
   display: flex;
+  text-decoration: none;
 }
 
-.g-header-text button:hover {
+.g-header-text a:hover {
   box-shadow: 0 0 30px rgb(255, 151, 113, 0.7);
   transform: rotate(0deg);
 }
 
-.g-header-text button > span {
+.g-header-text a > span {
   animation: narrow 1s both infinite;
 }
 
