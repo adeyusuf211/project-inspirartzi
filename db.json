@@ -1,0 +1,330 @@
+[
+    {
+        "id": 1,
+        "judul": "Modern CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/CV/File Webp/CV 4.webp",
+        "link": "https://dribbble.com/shots/15377752-Modern-Cv-Design-Job-Application-Services?utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Modern%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Modern%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share",
+        "filter": "cv"
+    },
+    {
+        "id": 2,
+        "judul": "Elegant CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/CV/File Webp/CV 2.webp",
+        "link": "https://dribbble.com/shots/15377729-Elegan-Cv-Design-Job-Application-Services?utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Elegan%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Elegan%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share",
+        "filter": "cv"
+    },
+    {
+        "id": 3,
+        "judul": "Purple CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/CV/File Webp/CV 3.webp",
+        "link": "https://dribbble.com/shots/15377743-Purple-Cv-Design-Job-Application-Services?utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Purple%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Purple%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share",
+        "filter": "cv"
+    },
+    {
+        "id": 4,
+        "judul": "Simple CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/CV/File Webp/CV 1.webp",
+        "link": "https://dribbble.com/shots/15377638-Simple-Cv-Design-Job-Application-Services?utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Simple%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Simple%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share",
+        "filter": "cv"
+    },
+    {
+        "id": 5,
+        "judul": "Minimalist CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/CV/File Webp/CV 5.webp",
+        "link": "https://dribbble.com/shots/15377759-Minimalist-Cv-Design-Job-Application-Services?utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Minimalist%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=gartmedia12&utm_content=Minimalist%20Cv%20Design%20%26%20Job%20Application%20Services&utm_medium=Social_Share",
+        "filter": "cv"
+    },
+    {
+        "id": 6,
+        "judul": "Dompetku - E-Wallet Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Dompetku Apps.webp",
+        "link": "https://dribbble.com/shots/15196292-Dompetku-E-Wallet-UI-UX-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Dompetku%20-%20E-Wallet%20UI%20UX%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Dompetku%20-%20E-Wallet%20UI%20UX%20Design&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 7,
+        "judul": "gBook - Book Store Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi gBook Store.webp",
+        "link": "https://dribbble.com/shots/14943306-gBook-UI-UX-Design-Book-Store-Platform?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=gBook%20-%20UI%20UX%20Design%20Book%20Store%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=gBook%20-%20UI%20UX%20Design%20Book%20Store%20Platform&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 8,
+        "judul": "Login And Register Page Mobile Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Login And Register Page.webp",
+        "link": "https://dribbble.com/shots/15236840-UI-UX-Design-Login-and-Register-Page?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=UI%20UX%20Design%20Login%20and%20Register%20Page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=UI%20UX%20Design%20Login%20and%20Register%20Page&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 9,
+        "judul": "Ngelancong - Travel Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Ngelancong Apps.webp",
+        "link": "https://dribbble.com/shots/14868731-Ngelancong-UI-Design-Travels-Platform?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Ngelancong%20-%20UI%20Design%20Travels%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Ngelancong%20-%20UI%20Design%20Travels%20Platform&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 10,
+        "judul": "Serabutan - Freelancer Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Serabutan Apps.webp",
+        "link": "https://dribbble.com/shots/14886461-Serabutan-Freelance-Apps-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Serabutan%20-%20Freelance%20Apps%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Serabutan%20-%20Freelance%20Apps%20Design&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 11,
+        "judul": "aDrive - Cloud Storage Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi aDrive.webp",
+        "link": "https://dribbble.com/shots/14860288-aDrive-Cloud-Storage-Platform?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=aDrive%20-%20Cloud%20Storage%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=aDrive%20-%20Cloud%20Storage%20Platform&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 12,
+        "judul": "idCourse - Online Course Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi idCourse Apps.webp",
+        "link": "https://dribbble.com/shots/14904782-idCourse-UI-UX-Design-Online-Course-Platform?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=idCourse%20-%20UI%20UX%20Design%20Online%20Course%20Platform&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=idCourse%20-%20UI%20UX%20Design%20Online%20Course%20Platform&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 13,
+        "judul": "Tokoku - Ecommerce Mobile Apps Design",
+        "kategori": "UI Design Mobile Apps",
+        "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Tokoku Apps.webp",
+        "link": "https://dribbble.com/shots/15431846-Tokoku-Ecommerce-UI-UX-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Tokoku%20-%20Ecommerce%20UI%20UX%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Tokoku%20-%20Ecommerce%20UI%20UX%20Design&utm_medium=Social_Share",
+        "filter": "mobile apps"
+    },
+    {
+        "id": 14,
+        "judul": "Programming Web Challenge Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presentasi Coding Challenge.webp",
+        "link": "https://dribbble.com/shots/14801738-Course-Website?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Course%20Website&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Course%20Website&utm_medium=Social_Share",
+        "filter": "website"
+    },
+    {
+        "id": 15,
+        "judul": "T-Blogs - Blogs Web Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presentasi T-Blogs.webp",
+        "link": "https://dribbble.com/shots/15033910-T-Blogs-Web-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=T-Blogs%20-%20Web%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=T-Blogs%20-%20Web%20Design&utm_medium=Social_Share",
+        "filter": "website"
+    },
+    {
+        "id": 16,
+        "judul": "theCar - Car Store Web Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presentasi theCar.webp",
+        "link": "https://dribbble.com/shots/15053837-theCar-Web-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=theCar%20-%20Web%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=theCar%20-%20Web%20Design&utm_medium=Social_Share",
+        "filter": "website"
+    },
+    {
+        "id": 17,
+        "judul": "uRest - Restaurant Web Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presentasi uRest.webp",
+        "link": "http://u-restaurant.netlify.app",
+        "filter": "website"
+    },
+    {
+        "id": 18,
+        "judul": "Web Portfolio Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presentasi Web Portfolio.webp",
+        "link": "https://dribbble.com/shots/14818891-Portfolio-Web-Design?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Portfolio%20Web%20Design&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=Portfolio%20Web%20Design&utm_medium=Social_Share",
+        "filter": "website"
+    },
+    {
+        "id": 19,
+        "judul": "GoFlow - Flower Store Web Design",
+        "kategori": "UI Design Website",
+        "lokasi": "/img/porfolio/Website/File Webp/Presntasi GoFlow.webp",
+        "link": "",
+        "filter": "website"
+    },
+    {
+        "id": 20,
+        "judul": "Outline Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo 1.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 21,
+        "judul": "Logo AY Studio",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo AY Studio.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 22,
+        "judul": "Ade Yusuf Logo With Arabic Style",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo adeyusuf.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 23,
+        "judul": "Simple Logo Moon And Bird Shape",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 8.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 24,
+        "judul": "Tree Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 4.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 25,
+        "judul": "Bird Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 2.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 26,
+        "judul": "Like Bird Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo 5.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 27,
+        "judul": "Shoe Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo 6.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 28,
+        "judul": "Technoart Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo Technoart.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 29,
+        "judul": "Outline Flower Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 11.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 30,
+        "judul": "Heart Logo Design",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/Logo 10.webp",
+        "link": "",
+        "filter": "logo"
+    },
+    {
+        "id": 31,
+        "judul": "Wall Decor Motivation",
+        "kategori": "Wall Decor",
+        "lokasi": "/img/porfolio/Wall Decor/32.jpg",
+        "link": "",
+        "filter": "wall decor"
+    },
+    {
+        "id": 32,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 33,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 1.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 34,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 2.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 35,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 3.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 36,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 4.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 37,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 5.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 38,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 6.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 39,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 7.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 40,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 8.jpg",
+        "link": "",
+        "filter": "mug"
+    },
+    {
+        "id": 41,
+        "judul": "Mug Desain",
+        "kategori": "Mug Desain",
+        "lokasi": "/img/porfolio/Mug Desain/Mug 9.jpg",
+        "link": "",
+        "filter": "mug"
+    }
+]

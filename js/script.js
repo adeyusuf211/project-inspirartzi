@@ -1,9 +1,59 @@
+fetch('db.json')
+    .then(response => response.json())
+    .then(data => {
+      let cards = '';
+      const tempat = document.querySelector('.works-list');
+      data.forEach(d => {
+        cards += `<div class="works-card" data-att="${d.filter}">
+                    <div class="card-image">
+                        <img src="${d.lokasi}" alt="${d.judul}">
+                    </div>
+                    <div class="card-text">
+                        <h4>${d.judul}</h4>
+                        <p>${d.kategori}</p>
+                        <a href="${d.link}">Look Project</a>
+                    </div>
+                </div>`;
+                });
+      tempat.innerHTML = cards;
+
+      tabs();
+    });
+
+function tabs() {
+  // Script for button tabs
+  const btn = document.querySelectorAll('.g-works .works-button button');
+  const img = document.querySelectorAll('.g-works .works-list .works-card');
+
+  btn.forEach(item => {
+      item.addEventListener('click', () => {
+          for(let i = 0; i < btn.length; i++) {
+              btn[i].classList.remove('active');
+          }
+          item.classList.add('active');
+
+          // show image
+          img.forEach(show => {
+              show.style.display = 'none';
+              show.style.transition = 'all 0.5s linear';
+              let image = item.textContent.toLowerCase();
+              if(show.getAttribute('data-att') === image || image === 'all') {
+                  show.style.display = "flex";
+              }
+          });
+      });
+  });
+  // End button tabs
+}
+
+
 // script for fixed navbar
 const nav = document.querySelector('.g-nav');
 window.addEventListener('scroll', function() {
     nav.classList.toggle('fixed', scrollY > 0);
 });
 // end fixed navbar script
+
 
 // script for custom load
 const load = document.querySelector('.load');
@@ -165,32 +215,3 @@ menu.forEach(m => {
     });
 });
 // end active menu script
-
-// Script for button tabs
-const btn = document.querySelectorAll('.g-works .works-button button');
-const img = document.querySelectorAll('.g-works .works-list .works-card');
-
-btn.forEach(item => {
-    item.addEventListener('click', () => {
-        for(let i = 0; i < btn.length; i++) {
-            btn[i].classList.remove('active');
-        }
-        item.classList.add('active');
-
-        // show image
-        img.forEach(show => {
-            show.style.display = 'none';
-            show.style.transition = 'all 0.5s linear';
-            let image = item.textContent.toLowerCase();
-            if(show.getAttribute('data-att') === image || image === 'all') {
-                show.style.display = "flex";
-            }
-        })
-    });
-})
-// End button tabs
-
-// script for hover text
-const text = document.querySelector('.colaboration h3');
-const huruf = [...text.textContent].map(h => `<span>${h}</span>`).join('');
-text.innerHTML = huruf;
