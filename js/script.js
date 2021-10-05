@@ -11,17 +11,16 @@ fetch('db.json')
                     <div class="card-text">
                         <h4>${d.judul}</h4>
                         <p>${d.kategori}</p>
-                        <a href="${d.link}">Look Project</a>
+                        <a class="cuy" data-id="${d.id}">Look Project</a>
                     </div>
                 </div>`;
                 });
       tempat.innerHTML = cards;
-
       tabs();
     });
 
+// Script for function tabs
 function tabs() {
-  // Script for button tabs
   const btn = document.querySelectorAll('.g-works .works-button button');
   const img = document.querySelectorAll('.g-works .works-list .works-card');
 
@@ -43,8 +42,8 @@ function tabs() {
           });
       });
   });
-  // End button tabs
 }
+// End function script
 
 
 // script for fixed navbar
