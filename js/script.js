@@ -11,13 +11,60 @@ fetch('db.json')
                     <div class="card-text">
                         <h4>${d.judul}</h4>
                         <p>${d.kategori}</p>
-                        <a class="cuy" data-id="${d.id}">Look Project</a>
+                        <a class="cuy" data-id="${d.id}" id="talk">Look Project</a>
                     </div>
                 </div>`;
                 });
       tempat.innerHTML = cards;
       tabs();
+
+      const buttons = document.querySelectorAll('.cuy');
+      buttons.forEach(button => {
+        button.addEventListener('click', function() {
+          const id = this.dataset.id;
+          fetch('db.json')
+            .then(response => response.json())
+            .then(data => {
+              const filter = data.filter(d => d.id = id);
+              const detail = filter[id - 1];
+              let card     = '';
+              card += `<div class="modal-talk">
+                          <div class="modal-header">
+                              <h3>${ detail.judul }</h3>
+                              <span id="span">X</span>
+                          </div>
+                          <div class="modal-body">
+                              <article>${ detail.deskripsi || 'Deskripsi belum tersedia' }</article>
+                          </div>
+                          <div class="modal-footer">
+                              <button id="close">close</button>
+                          </div>
+                      </div>`;
+              const modal     = document.querySelector('.modal');
+              modal.innerHTML = card;
+              modals();
+            });
+        });
+      });
     });
+
+function modals() {
+    const talk      = document.querySelectorAll('#talk');
+    const modalTalk = document.querySelector('.modal');
+    const close     = document.getElementById('close');
+    const span      = document.getElementById('span');
+    talk.forEach(button => {
+      button.addEventListener('click', (e) => {
+        modalTalk.style.display = "grid";
+      });
+    });
+    close.addEventListener('click', function(e) {
+      modalTalk.style.display = "none";
+    });
+    span.addEventListener('click', function() {
+      modalTalk.style.display = "none";
+    });
+}
 
 // Script for function tabs
 function tabs() {
@@ -76,22 +123,6 @@ function clickHandler(e) {
   });
 }
 // end smooth scrolling script
-
-// script for modal box
-// const modal     = document.getElementById('talk');
-// const modalTalk = document.querySelector('.modal');
-// const close     = document.getElementById('close');
-// const span      = document.getElementById('span');
-// modal.addEventListener('click', (e) => {
-//   modalTalk.style.display = "grid";
-// });
-// close.addEventListener('click', function(e) {
-//   modalTalk.style.display = "none";
-// });
-// span.addEventListener('click', function() {
-//   modalTalk.style.display = "none";
-// });
-// end modal box script
 
 
 // script for darkmode

@@ -805,10 +805,16 @@ a {
 }
 
 .modal .modal-talk {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: hidden;
   width: 50vw;
-  padding: 1em 2em;
+  height: 80vh;
+  overflow-y: hidden;
+  padding: 2em;
   background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  border-radius: 20px 100px 20px 100px;
   box-shadow: 0 0 10px rgb(59, 59, 59, 0.4);
   animation: modal 0.5s ease-in;
 }
@@ -824,6 +830,8 @@ a {
 
 .modal .modal-talk .modal-header {
   display: flex;
+  overflow-y: hidden;
+  padding: 30px 0;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -831,44 +839,27 @@ a {
 }
 
 .modal .modal-talk .modal-header h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: inherit;
 }
 
-.modal .modal-talk .modal-body .form-group {
+.modal .modal-talk .modal-body {
   display: flex;
-  flex-direction: column;
   margin: 20px 0;
-}
-
-.modal .modal-talk .modal-body .form-group label {
-  margin-bottom: 10px;
-}
-
-.modal .modal-talk .modal-body .form-group input {
-  width: 100%;
-  height: 50px;
-}
-
-.modal .modal-talk .modal-body .form-group input,
-textarea {
-  border-radius: 5px;
-  padding: 1em;
-  outline: none;
-  font-size: 18px;
-}
-
-.modal .modal-talk .modal-body .form-group textarea {
-  height: 100px;
+  height: 400px;
 }
 
 .modal .modal-talk .modal-footer {
   display: flex;
+  height: 80px;
   justify-content: flex-end;
+  display: flex;
+  align-items: center;
 }
 
 .modal .modal-talk .modal-footer button {
   padding: 1em 2em;
+  height: 50px;
   box-sizing: border-box;
   border: none;
   outline: none;
@@ -876,14 +867,9 @@ textarea {
   cursor: pointer;
 }
 
-.modal .modal-talk .modal-footer button:nth-child(1) {
+.modal .modal-talk .modal-footer button {
   margin-right: 5px;
   background-color: black;
-  color: white;
-}
-
-.modal .modal-talk .modal-footer button:nth-child(2) {
-  background-color: var(--coral);
   color: white;
 }
 /* end modal style */
