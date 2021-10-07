@@ -34,7 +34,7 @@ fetch('db.json')
                               <span id="span">X</span>
                           </div>
                           <div class="modal-body">
-                              <article>${ detail.deskripsi || 'Deskripsi belum tersedia' }</article>
+                              <p class="artikel">${ detail.deskripsi || 'Deskripsi belum tersedia' }</p>
                           </div>
                           <div class="modal-footer">
                               <button id="close">close</button>
@@ -92,39 +92,6 @@ function tabs() {
 }
 // End function script
 
-
-// script for fixed navbar
-const nav = document.querySelector('.g-nav');
-window.addEventListener('scroll', function() {
-    nav.classList.toggle('fixed', scrollY > 0);
-});
-// end fixed navbar script
-
-
-// script for custom load
-const load = document.querySelector('.load');
-window.addEventListener('beforeunload', function() {
-    load.style.display = "flex";
-});
-// end custom load script
-
-// script for smooth scrolling
-const links = document.querySelectorAll(".g-nav-list a");
-for (const link of links) {
-  link.addEventListener("click", clickHandler);
-}
-function clickHandler(e) {
-  e.preventDefault();
-  const href = this.getAttribute("href");
-  const offsetTop = document.querySelector(href).offsetTop;
-  scroll({
-    top: offsetTop,
-    behavior: "smooth"
-  });
-}
-// end smooth scrolling script
-
-
 // script for darkmode
 const theme   = document.querySelector('.theme');
 const footer  = document.querySelector('.g-footer');
@@ -145,6 +112,7 @@ function darkTheme() {
     theme.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
     </svg>`;
+
     const svg = document.querySelector('.theme svg');
     svg.style.color = "black";
 
@@ -194,9 +162,12 @@ function darkTheme() {
     // change background color and color of footer
     footer.style.backgroundColor = "rgb(255, 216, 171)";
     const footerText = document.querySelector('.g-footer .footer-text h3');
+
     footerText.style.color = "rgb(196, 104, 0)";
     const footerCopyright = document.querySelector('.g-footer .footer-copy p');
+
     footerCopyright.style.color = "rgb(196, 104, 0)";
+    
     header.style.background = "url(/img/bg.svg)";
     header.style.backgroundSize = "cover";
     header.style.backgroundPosition = "center";
@@ -205,6 +176,38 @@ function darkTheme() {
   // end condition for darkmode
 }
 // end darkmode script
+
+
+// script for fixed navbar
+const nav = document.querySelector('.g-nav');
+window.addEventListener('scroll', function() {
+    nav.classList.toggle('fixed', scrollY > 0);
+});
+// end fixed navbar script
+
+
+// script for custom load
+const load = document.querySelector('.load');
+window.addEventListener('beforeunload', function() {
+    load.style.display = "flex";
+});
+// end custom load script
+
+// script for smooth scrolling
+const links = document.querySelectorAll(".g-nav-list a");
+for (const link of links) {
+  link.addEventListener("click", clickHandler);
+}
+function clickHandler(e) {
+  e.preventDefault();
+  const href = this.getAttribute("href");
+  const offsetTop = document.querySelector(href).offsetTop;
+  scroll({
+    top: offsetTop,
+    behavior: "smooth"
+  });
+}
+// end smooth scrolling script
 
 // script for custom cursor
 let mouse       = document.querySelector('.cursor');

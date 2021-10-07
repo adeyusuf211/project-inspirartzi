@@ -430,6 +430,7 @@ body.dark {
   background: none;
   cursor: pointer;
   transition: 0.5s ease-in;
+  border-radius: 40px;
 }
 
 .g-works .works-button > button:hover {
