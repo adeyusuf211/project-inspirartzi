@@ -2,26 +2,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 * {
-  padding: 0;
   margin: 0;
-  font-family: Poppins, sans-serif;
-  box-sizing: border-box;
+  padding: 0;
   overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
 }
 
 :root {
   --coral: coral;
-  --coral2: rgb(252, 193, 172);
   --red: #f38686;
+  --coral2: rgb(252, 193, 172);
   --text-color: rgb(75, 75, 75);
-  --coral-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
   --color-cursor: rgb(247, 203, 122);
+  --coral-shadow: 0 0 20px rgb(255, 151, 113, 0.5);
 }
 
 body.dark {
-  background-color: rgb(24, 18, 0);
   color: white;
   transition: all 0.3s ease;
+  background-color: rgb(24, 18, 0);
 }
 
 /* style for custom cursor */
@@ -29,20 +29,20 @@ body.dark {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
-  border: 3px solid var(--color-cursor);
   position: absolute;
-  transform: translate(-50%, -50%);
   pointer-events: none;
   transition: all 0.3s ease;
-  transition-property: background, transform;
   transform-origin: 100%, 100%;
   backdrop-filter: grayscale(0.5);
+  transform: translate(-50%, -50%);
+  border: 3px solid var(--color-cursor);
+  transition-property: background, transform;
 }
 
 .link-grow {
+  z-index: -1;
   transform: scale(2);
   background-color: var(--color-cursor);
-  z-index: -1;
 }
 
 .hover-link {
@@ -57,20 +57,20 @@ body.dark {
 
 .load {
   width: 100vw;
+  z-index: 100;
   height: 100vh;
   display: flex;
   display: none;
+  position: fixed;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  position: fixed;
   background-color: white;
-  z-index: 100;
 }
 
 .load .box-list {
-  display: flex;
   padding: 1em;
+  display: flex;
 }
 
 .load .box {
@@ -82,10 +82,10 @@ body.dark {
 }
 
 .load .load-text h3 {
-  font-size: 1.5rem;
-  color: rgb(196, 104, 0);
-  letter-spacing: 2px;
   opacity: 50%;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: rgb(196, 104, 0);
 }
 
 .load .box:nth-child(1) {
@@ -113,20 +113,20 @@ body.dark {
 
 /* style for header */
 .g-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
   width: 100vw;
   height: 100px;
-  position: fixed;
+  display: flex;
   z-index: 1000;
+  position: fixed;
   overflow-y: hidden;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .g-nav.fixed {
   background-color: white;
-  box-shadow: 0 0 10px rgb(112, 112, 112, 0.4);
   transition: all 0.5s ease-in-out;
+  box-shadow: 0 0 10px rgb(112, 112, 112, 0.4);
 }
 
 .g-nav-logo img {
@@ -140,24 +140,24 @@ body.dark {
 }
 
 .g-nav-list ul li a {
-  text-decoration: none;
-  font-weight: bold;
   padding: 0 2em;
+  font-weight: bold;
+  text-decoration: none;
   transition: all 0.3s ease-in;
 }
 
 .g-nav-list ul li a.active {
-  color: var(--coral);
   position: relative;
+  color: var(--coral);
 }
 
 .g-nav-list ul li a.active::after {
   content: "";
   width: 10px;
   height: 10px;
+  margin-left: 5px;
   border-radius: 50%;
   position: absolute;
-  margin-left: 5px;
   background-color: var(--coral);
 }
 
@@ -170,22 +170,22 @@ body.dark {
 }
 
 .g-header {
-  width: 100vw;
-  min-height: 120vh;
-  display: grid;
-  place-content: center;
-  padding: 0 200px;
   background: url(/img/bg.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100vw;
+  display: grid;
+  padding: 0 200px;
+  min-height: 120vh;
   text-align: center;
+  place-content: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .g-header-text {
   display: grid;
-  justify-content: start;
   place-items: center;
+  justify-content: start;
 }
 
 .g-header-text h3 {
@@ -195,33 +195,33 @@ body.dark {
 }
 
 .g-header-text p {
-  font-size: 2rem;
-  letter-spacing: 2px;
-  text-align: center;
   margin: 10px 0;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
   color: var(--text-color);
 }
 
 .g-header-text a {
   margin: 30px;
-  padding: 1rem 3rem;
-  font-size: 25px;
   border: none;
-  outline: none;
-  background-color: var(--coral);
-  border-radius: 15px;
-  color: white;
-  cursor: pointer;
-  transition: all 0.5s ease-in;
-  transform: rotate(-3deg);
-  font-weight: bold;
   display: flex;
+  outline: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 15px;
   text-decoration: none;
+  transform: rotate(-3deg);
+  transition: all 0.5s ease-in;
+  background-color: var(--coral);
 }
 
 .g-header-text a:hover {
-  box-shadow: 0 0 30px rgb(255, 151, 113, 0.7);
   transform: rotate(0deg);
+  box-shadow: 0 0 30px rgb(255, 151, 113, 0.7);
 }
 
 .g-header-text a > span {
@@ -241,15 +241,15 @@ body.dark {
 /* style for about */
 .g-about {
   width: 100vw;
-  min-height: 100vh;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   padding: 0 200px;
+  min-height: 100vh;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .g-about-image {
-  display: flex;
   padding: 1em;
+  display: flex;
 }
 
 .g-about-image img {
@@ -263,9 +263,9 @@ body.dark {
 }
 
 .g-about-text {
+  padding: 1em;
   display: grid;
   place-content: center start;
-  padding: 1em;
 }
 
 .g-about-text h3 {
@@ -273,8 +273,8 @@ body.dark {
 }
 
 .g-about-text p {
-  font-size: 1.3rem;
   margin: 20px 0;
+  font-size: 1.3rem;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -284,8 +284,8 @@ body.dark {
 
 .g-about-follow {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .g-about-follow .sosmed {
@@ -294,14 +294,14 @@ body.dark {
 }
 
 .g-about-follow .sosmed a {
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 40px;
   height: 40px;
   margin: 0 2px;
+  display: flex;
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
   transition: all 0.5s ease-in;
 }
 
@@ -318,8 +318,8 @@ body.dark {
 /* style for teams */
 .teams {
   width: 100vw;
-  padding: 0 200px;
   margin: 100px 0;
+  padding: 0 200px;
 }
 
 .teams .teams-header {
@@ -336,17 +336,17 @@ body.dark {
 }
 
 .teams .teams-list {
-  display: flex;
   padding: 1em;
+  display: flex;
   justify-content: space-between;
 }
 
 .teams .teams-list .teams-card {
-  display: flex;
   width: 48%;
   padding: 2em;
-  transition: 0.5s ease-in;
+  display: flex;
   border-radius: 10px;
+  transition: 0.5s ease-in;
 }
 
 .teams .teams-list .teams-card:hover {
@@ -354,11 +354,11 @@ body.dark {
 }
 
 .teams .teams-list .teams-card .teams-card-image {
+  width: 30%;
   display: flex;
   margin-right: 20px;
-  justify-content: center;
   align-items: center;
-  width: 30%;
+  justify-content: center;
 }
 
 .teams .teams-list .teams-card .teams-card-image img {
@@ -371,9 +371,9 @@ body.dark {
 }
 
 .teams .teams-list .teams-card .teams-card-body span {
-  margin: 10px 0;
   height: 5px;
   width: 100%;
+  margin: 10px 0;
   border-radius: 50px;
   background-color: coral;
 }
@@ -390,13 +390,13 @@ body.dark {
 /* style for works */
 .g-works {
   width: 100vw;
-  min-height: 100vh;
   padding: 0 200px;
+  min-height: 100vh;
 }
 
 .g-works .g-works-text {
-  text-align: center;
   margin: 30px;
+  text-align: center;
 }
 
 .g-works .g-works-text h3 {
@@ -410,27 +410,27 @@ body.dark {
 }
 
 .g-works .works-list {
-  margin: 30px 0;
   padding: 20px;
+  margin: 30px 0;
 }
 
 .g-works .works-button {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   padding: 20px 0;
+  justify-content: center;
 }
 
 .g-works .works-button > button {
-  padding: 1em 1.5em;
   margin: 10px;
-  text-transform: uppercase;
   border: none;
   outline: none;
-  background: none;
   cursor: pointer;
-  transition: 0.5s ease-in;
+  background: none;
+  padding: 1em 1.5em;
   border-radius: 40px;
+  text-transform: uppercase;
+  transition: 0.5s ease-in;
 }
 
 .g-works .works-button > button:hover {
@@ -443,12 +443,12 @@ body.dark {
 }
 
 .g-works .works-list .works-card {
-  display: flex;
   flex: 1;
+  display: flex;
   margin: 30px 0;
-  border: 1px solid rgba(161, 161, 161, 0.5);
   border-radius: 5px;
   transition: 0.5s ease-in;
+  border: 1px solid rgba(161, 161, 161, 0.5);
 }
 
 .g-works .works-list .works-card:nth-child(odd) {
@@ -461,14 +461,14 @@ body.dark {
 }
 
 .g-works .works-list .works-card .card-image {
-  display: flex;
   width: 50%;
+  display: flex;
   overflow: hidden;
 }
 
 .g-works .works-card .card-image img {
-  transition: all 0.5s ease-in;
   object-fit: cover;
+  transition: all 0.5s ease-in;
 }
 
 .g-works .works-card .card-image img:hover {
@@ -476,10 +476,10 @@ body.dark {
 }
 
 .g-works .works-list .works-card .card-text {
-  display: grid;
-  place-content: center start;
   width: 50%;
   padding: 3em;
+  display: grid;
+  place-content: center start;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -488,25 +488,25 @@ body.dark {
 }
 
 .g-works .works-card .card-text p {
-  font-size: 1.5rem;
   margin-top: 10px;
+  font-size: 1.5rem;
   margin-bottom: 30px;
 }
 
 .g-works .works-card .card-text a {
-  display: flex;
   width: 200px;
   height: 70px;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  text-decoration: none;
-  background-color: var(--red);
-  font-size: 1.2rem;
+  display: flex;
   color: white;
+  font-size: 1.2rem;
+  align-items: center;
   border-radius: 50px;
-  box-shadow: 0 10px 30px rgb(253, 121, 121, 0.5);
+  text-decoration: none;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: var(--red);
   transition: all 0.5s ease-in-out;
+  box-shadow: 0 10px 30px rgb(253, 121, 121, 0.5);
 }
 
 .g-works .works-card .card-text a:hover {
@@ -518,13 +518,13 @@ body.dark {
 /* style for services */
 .g-services {
   width: 100vw;
-  min-height: 100vh;
   padding: 0 200px;
+  min-height: 100vh;
 }
 
 .g-services .services-text {
   margin: 20px 0;
-  text-align: end;
+  text-align: start;
 }
 
 .g-services .services-text h3 {
@@ -532,25 +532,25 @@ body.dark {
 }
 
 .g-services .services-text p {
+  margin: 20px 0;
   font-size: 1.3rem;
   letter-spacing: 2px;
-  margin: 20px 0;
   font-family: "Quicksand", sans-serif;
 }
 
 .g-services .services-list {
+  gap: 10px;
   display: grid;
   padding: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 10px;
 }
 
 .g-services .services-list .services-card {
   text-align: center;
-  border: 1px solid rgb(107, 107, 107);
   padding: 50px 10px;
   border-radius: 5px;
   transition: all 0.5s ease-in;
+  border: 1px solid rgb(107, 107, 107);
 }
 
 .g-services .services-list .services-card:hover {
@@ -563,36 +563,36 @@ body.dark {
 
 .g-services .services-list .services-card h3 {
   font-size: 2rem;
-  font-weight: inherit;
   margin-top: 20px;
+  font-weight: inherit;
 }
 
 .g-services .services-list .services-card p {
-  font-size: 1.3rem;
   margin: 20px 0;
-  letter-spacing: 1px;
   padding: 0 1em;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
   margin-bottom: 50px;
   font-family: "Quicksand", sans-serif;
 }
 
 .g-services .services-list .services-card p > span {
-  font-family: "Quicksand", sans-serif;
   font-weight: 600;
+  font-family: "Quicksand", sans-serif;
 }
 
 .g-services .services-list .services-card a {
-  text-decoration: none;
-  padding: 1rem 3rem;
   border: none;
   outline: none;
-  border-radius: 10px;
-  cursor: pointer;
-  background-color: var(--coral);
   color: white;
+  cursor: pointer;
   font-size: 18px;
   font-weight: bold;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  text-decoration: none;
   transition: all 0.3s ease-in;
+  background-color: var(--coral);
 }
 
 .g-services .services-list .services-card a:hover {
@@ -606,32 +606,32 @@ body.dark {
   height: 40vh;
   display: grid;
   margin: 20px 0;
-  place-content: center;
-  background: url(/img/undraw_urban_design_kpu8.svg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   position: relative;
   text-align: center;
+  place-content: center;
+  background: url(/img/undraw_urban_design_kpu8.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .quote::after {
-  content: "";
-  position: absolute;
   top: 0;
-  display: flex;
-  background-color: var(--coral);
+  content: "";
   width: 100%;
   height: 100%;
   opacity: 50%;
+  display: flex;
+  position: absolute;
+  background-color: var(--coral);
 }
 
 .quote h3 {
-  font-size: 3.5rem;
-  letter-spacing: 1px;
   z-index: 1;
   color: white;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
   text-shadow: 0 0 5px rgb(255, 127, 80, 0.3);
 }
 /* end qoute style */
@@ -641,16 +641,16 @@ body.dark {
   width: 100vw;
   height: 100vh;
   display: grid;
-  place-content: center;
   padding: 0 200px;
   position: relative;
+  place-content: center;
 }
 
 .colaboration h3,
 span,
 a {
-  position: relative;
   z-index: 2;
+  position: relative;
 }
 
 .colaboration h3 {
@@ -663,34 +663,34 @@ a {
 }
 
 .colaboration h3 span:hover {
-  color: var(--coral);
   cursor: pointer;
+  color: var(--coral);
 }
 
 .colaboration a {
-  text-decoration: none;
   font-size: 1.2rem;
   position: relative;
+  text-decoration: none;
   color: rgb(83, 83, 83);
 }
 
 .colaboration a:after {
+  bottom: 0;
+  width: 20%;
   content: "";
+  z-index: -1;
+  height: 15px;
   display: flex;
   position: absolute;
-  bottom: 0;
-  height: 15px;
-  width: 20%;
   background-color: var(--coral2);
-  z-index: -1;
 }
 
 .colaboration h2 {
-  font-size: 10rem;
-  color: rgb(209, 209, 209);
-  opacity: 50%;
-  position: absolute;
   top: 20%;
+  opacity: 50%;
+  font-size: 10rem;
+  position: absolute;
+  color: rgb(209, 209, 209);
   animation: collaborate infinite linear 14s;
 }
 
@@ -704,11 +704,11 @@ a {
 }
 
 .colaboration h1 {
-  font-size: 10rem;
-  color: rgb(209, 209, 209);
-  opacity: 50%;
-  position: absolute;
   top: 40%;
+  opacity: 50%;
+  font-size: 10rem;
+  position: absolute;
+  color: rgb(209, 209, 209);
   animation: collaborate2 infinite linear 13s;
 }
 
@@ -724,34 +724,34 @@ a {
 
 /* style for footer */
 .g-footer {
+  gap: 30px;
   width: 95vw;
   height: 70vh;
-  background-color: rgb(255, 216, 171);
+  display: grid;
   padding: 0 200px;
   margin-top: 30px;
-  display: grid;
-  grid-template-areas: "image text" "image text" "copy copy";
-  gap: 30px;
+  margin-left: auto;
   place-content: center;
   border-top-left-radius: 100px;
-  margin-left: auto;
+  background-color: rgb(255, 216, 171);
+  grid-template-areas: "image text" "image text" "copy copy";
 }
 
 .g-footer .footer-image {
-  grid-area: image;
   display: flex;
+  grid-area: image;
   align-items: center;
 }
 
 .g-footer .footer-image img {
+  height: 90%;
   object-fit: cover;
   object-position: center;
-  height: 90%;
 }
 
 .g-footer .footer-text {
-  grid-area: text;
   display: flex;
+  grid-area: text;
   align-items: center;
 }
 
@@ -796,28 +796,27 @@ a {
 /* style for modal */
 .modal {
   width: 100vw;
-  min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
   position: fixed;
   z-index: 500000;
-  display: none;
+  min-height: 100vh;
   place-content: center;
   animation: modal 0.5s ease-in;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal .modal-talk {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow-y: hidden;
   width: 50vw;
   height: 80vh;
-  overflow-y: hidden;
   padding: 2em;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px 100px 20px 100px;
-  box-shadow: 0 0 10px rgb(59, 59, 59, 0.4);
+  display: flex;
+  overflow-y: hidden;
+  flex-direction: column;
   animation: modal 0.5s ease-in;
+  justify-content: space-between;
+  border-radius: 20px 100px 20px 100px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(59, 59, 59, 0.4);
 }
 
 @keyframes modal {
@@ -831,12 +830,12 @@ a {
 
 .modal .modal-talk .modal-header {
   display: flex;
-  overflow-y: hidden;
   padding: 30px 0;
-  justify-content: space-between;
-  align-items: center;
   cursor: pointer;
+  overflow-y: hidden;
+  align-items: center;
   color: var(--text-color);
+  justify-content: space-between;
 }
 
 .modal .modal-talk .modal-header h3 {
@@ -846,47 +845,47 @@ a {
 
 .modal .modal-talk .modal-body {
   display: flex;
-  margin: 20px 0;
   height: 400px;
+  margin: 20px 0;
 }
 
 .modal .modal-talk .modal-footer {
   display: flex;
-  height: 80px;
-  justify-content: flex-end;
+  height: 100px;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .modal .modal-talk .modal-footer button {
-  padding: 1em 2em;
   height: 50px;
-  box-sizing: border-box;
   border: none;
   outline: none;
-  border-radius: 7px;
   cursor: pointer;
+  padding: 1em 2em;
+  border-radius: 7px;
+  box-sizing: border-box;
 }
 
 .modal .modal-talk .modal-footer button {
+  color: white;
   margin-right: 5px;
   background-color: black;
-  color: white;
 }
 /* end modal style */
 
 /* style for theme */
 .theme {
+  right: 0;
+  bottom: 0;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  position: fixed;
-  bottom: 0;
-  right: 0;
   margin: 30px;
-  background-color: rgb(20, 20, 20);
+  position: fixed;
   display: grid;
+  border-radius: 50%;
   place-content: center;
+  background-color: rgb(20, 20, 20);
   box-shadow: 0 0 10px rgb(145, 145, 145, 0.5);
 }
 

@@ -64,7 +64,7 @@
     },
     {
         "id": 8,
-        "judul": "Login And Register Page Mobile Apps Design",
+        "judul": "Login And Register Page For Mobile Apps",
         "kategori": "UI Design Mobile Apps",
         "lokasi": "/img/porfolio/Mobile Apps/File Webp/Presentasi Login And Register Page.webp",
         "link": "https://dribbble.com/shots/15236840-UI-UX-Design-Login-and-Register-Page?utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=UI%20UX%20Design%20Login%20and%20Register%20Page&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=adeyusuf&utm_content=UI%20UX%20Design%20Login%20and%20Register%20Page&utm_medium=Social_Share",
@@ -172,15 +172,24 @@
     },
     {
         "id": 20,
-        "judul": "Outline Logo",
+        "judul": "G'art Logo",
         "kategori": "Design Logo",
-        "lokasi": "/img/porfolio/Logo/File Webp/Logo 1.webp",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 1.webp",
         "link": "",
         "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
         "filter": "logo"
     },
     {
         "id": 21,
+        "judul": "Nature Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 11.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 22,
         "judul": "Logo AY Studio",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/Logo AY Studio.webp",
@@ -189,7 +198,7 @@
         "filter": "logo"
     },
     {
-        "id": 22,
+        "id": 23,
         "judul": "Ade Yusuf Logo With Arabic Style",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/logo adeyusuf.webp",
@@ -198,7 +207,7 @@
         "filter": "logo"
     },
     {
-        "id": 23,
+        "id": 24,
         "judul": "Simple Logo Moon And Bird Shape",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/logo 8.webp",
@@ -207,7 +216,7 @@
         "filter": "logo"
     },
     {
-        "id": 24,
+        "id": 25,
         "judul": "Tree Logo",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/logo 4.webp",
@@ -216,7 +225,7 @@
         "filter": "logo"
     },
     {
-        "id": 25,
+        "id": 26,
         "judul": "Bird Logo",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/logo 2.webp",
@@ -225,7 +234,7 @@
         "filter": "logo"
     },
     {
-        "id": 26,
+        "id": 27,
         "judul": "Like Bird Logo",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/Logo 5.webp",
@@ -234,7 +243,7 @@
         "filter": "logo"
     },
     {
-        "id": 27,
+        "id": 28,
         "judul": "Shoe Logo",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/Logo 6.webp",
@@ -243,7 +252,7 @@
         "filter": "logo"
     },
     {
-        "id": 28,
+        "id": 29,
         "judul": "Technoart Logo",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/Logo Technoart.webp",
@@ -252,16 +261,16 @@
         "filter": "logo"
     },
     {
-        "id": 29,
-        "judul": "Outline Flower Logo",
+        "id": 30,
+        "judul": "Simplify Logo",
         "kategori": "Design Logo",
-        "lokasi": "/img/porfolio/Logo/File Webp/logo 11.webp",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 9.webp",
         "link": "",
         "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
         "filter": "logo"
     },
     {
-        "id": 30,
+        "id": 31,
         "judul": "Heart Logo Design",
         "kategori": "Design Logo",
         "lokasi": "/img/porfolio/Logo/File Webp/Logo 10.webp",
@@ -270,7 +279,160 @@
         "filter": "logo"
     },
     {
-        "id": 31,
+        "id": 32,
+        "judul": "NZ Club Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 12.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 33,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 13.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 34,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 14.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 35,
+        "judul": "Birdmap Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 15.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 36,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 16.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 37,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 17.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 38,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 18.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 39,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 19.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 40,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 20.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 41,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 21.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 42,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 22.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 43,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 23.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 44,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 24.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 45,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 25.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 46,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 26.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 47,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 27.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 48,
+        "judul": "Unname Logo",
+        "kategori": "Design Logo",
+        "lokasi": "/img/porfolio/Logo/File Webp/logo 28.webp",
+        "link": "",
+        "deskripsi": "Logo adalah sebuah hal penting dalam membangun sebuah bisnis. Namun, memiliki sebuah logo bukanlah hal yang dapat dilakukan secara sembarangan. Salah satu hal terpenting dalam mendesain atau membuat sebuah logo adalah kesederhanaan, karena dengan kesederhanaan yang ada pada sebuah logo, hal itu akan membuat logo tersebut menjadi mudah untuk di ingat.",
+        "filter": "logo"
+    },
+    {
+        "id": 49,
         "judul": "Wall Decor Motivation",
         "kategori": "Wall Decor",
         "lokasi": "/img/porfolio/Wall Decor/32.jpg",
@@ -279,7 +441,7 @@
         "filter": "wall decor"
     },
     {
-        "id": 32,
+        "id": 50,
         "judul": "Mug Desain: Change Your Life",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug.jpg",
@@ -288,7 +450,7 @@
         "filter": "mug"
     },
     {
-        "id": 33,
+        "id": 51,
         "judul": "Mug Desain: I Love Family",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 1.jpg",
@@ -297,7 +459,7 @@
         "filter": "mug"
     },
     {
-        "id": 34,
+        "id": 52,
         "judul": "Mug Desain: Bismillah Sukses",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 2.jpg",
@@ -306,7 +468,7 @@
         "filter": "mug"
     },
     {
-        "id": 35,
+        "id": 53,
         "judul": "Mug Desain: Simple Pattern",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 3.jpg",
@@ -315,7 +477,7 @@
         "filter": "mug"
     },
     {
-        "id": 36,
+        "id": 54,
         "judul": "Mug Desain: Tulisan dan Gambar",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 4.jpg",
@@ -324,7 +486,7 @@
         "filter": "mug"
     },
     {
-        "id": 37,
+        "id": 55,
         "judul": "Mug Desain: Inisial Nama",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 5.jpg",
@@ -333,7 +495,7 @@
         "filter": "mug"
     },
     {
-        "id": 38,
+        "id": 56,
         "judul": "Mug Desain: Life Is Fun",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 6.jpg",
@@ -342,7 +504,7 @@
         "filter": "mug"
     },
     {
-        "id": 39,
+        "id": 57,
         "judul": "Mug Desain: Gambar",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 7.jpg",
@@ -351,7 +513,7 @@
         "filter": "mug"
     },
     {
-        "id": 40,
+        "id": 58,
         "judul": "Mug Desain: Bertuliskan SunRise",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 8.jpg",
@@ -360,7 +522,7 @@
         "filter": "mug"
     },
     {
-        "id": 41,
+        "id": 59,
         "judul": "Mug Desain: Simple Mug Text",
         "kategori": "Mug Desain",
         "lokasi": "/img/porfolio/Mug Desain/Mug 9.jpg",
