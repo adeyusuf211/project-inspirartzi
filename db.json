@@ -529,5 +529,32 @@
         "link": "",
         "deskripsi": "Bosan dengan sebuah mug atau cangkir yang itu - itu aja? sepertinya anda harus mulai menghias mug anda agar terlihat lebih menarik. Dan ini adalah salah satu contoh desain mug yang bertuliskan sebuah motivasi dengan style yang sederhana namun sangat menarik perhatian orang yang melihatnya.",
         "filter": "mug"
+    },
+{
+        "id": 60,
+        "judul": "Another CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/Mug Desain/CV 6.webp",
+        "link": "",
+        "deskripsi": ".",
+        "filter": "cv"
+    },
+{
+        "id": 61,
+        "judul": "Another CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/Mug Desain/CV 7.webp",
+        "link": "",
+        "deskripsi": ".",
+        "filter": "cv"
+    },
+{
+        "id": 62,
+        "judul": "Another CV",
+        "kategori": "Desain CV",
+        "lokasi": "/img/porfolio/Mug Desain/CV 8.webp",
+        "link": "",
+        "deskripsi": ".",
+        "filter": "cv"
     }
 ]
