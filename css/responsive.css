@@ -308,6 +308,7 @@
 
   .g-footer .footer-text {
     transform: translateY(50px);
+    align-items: center;
   }
 
   .g-footer .footer-text h3 {

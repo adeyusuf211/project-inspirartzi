@@ -752,7 +752,16 @@ a {
 .g-footer .footer-text {
   display: flex;
   grid-area: text;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.g-footer .footer-text .footer-sosmed {
+  display: flex;
+}
+
+.g-footer .footer-text .footer-sosmed a > svg {
+  width: 50px;
 }
 
 .g-footer .footer-text h3 {
