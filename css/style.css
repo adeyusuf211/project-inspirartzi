@@ -342,7 +342,7 @@ body.dark {
 }
 
 .teams .teams-list .teams-card {
-  width: 48%;
+  width: 100%;
   padding: 2em;
   display: flex;
   border-radius: 10px;
